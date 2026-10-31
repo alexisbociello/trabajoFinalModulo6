@@ -1,0 +1,9 @@
+prueba,entrada_o_preparacion,criterio_de_aceptacion,resultado_observado,evidencia,revision_humana
+P1,CSV original con 16 registros,Conteo leidas igual validas mas excluidas; explicar decisiones,,,
+P2,Original con repeticion exacta V005,Conservar primera y computar venta una sola vez,,,
+P3,Registro 15 original,Cantidad negativa excluida sin valor absoluto,,,
+P4,Registro 16 original,Precio vacio excluido sin imputar,,,
+P5,CSV original,Contrastar unidades ventas costos margen por categoria y total con revision docente,,,
+P6,Agregados de CSV original,Razon de sumas; no media simple de porcentajes,,,
+P7,Fechas simuladas 2026-10-18 y 2026-10-19; fixture cantidad1 precio100 costo70,Politica por ejecucion; frontera 30 sin alerta y comparacion previa a redondeo,,,
+P8,Solo registros 15 y 16 preservando encabezado,NO EVALUABLE y porcentaje null; no inventar datos,,,
