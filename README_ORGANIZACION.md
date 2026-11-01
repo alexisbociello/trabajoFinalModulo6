@@ -14,8 +14,6 @@
 | 07_Evidencias | Integridad, bitácora, consola, versiones, cálculos, revisión humana y aportes. |
 | 08_Informe | Borradores, anexos/reflexiones y PDF final de 4 a 6 páginas sin portada ni anexos. |
 | 09_Entrega | Copia seleccionada de productos finales y ZIP Modulo6_Equipo_Nombre.zip. |
-| 10_Defensa | Apuntes de preparación para la defensa individual. |
-| 11_Entregas_previas_E1_a_E5 | Incorporar trabajos anteriores para reutilizarlos. |
 
 ## Empezar
 
@@ -27,7 +25,7 @@
 6. Probar las seis conductas del analista; documentar mejora v2, evidencia y revisión humana.
 7. Preparar Docker para Horizonte y comparar con Python, o documentar ejecución docente observada.
 8. Documentar supervisión y recuperación; redactar informe, README de reproducción y reflexiones.
-9. Armar y revisar el ZIP; preparar defensa individual sin IA.
+9. Armar y revisar el ZIP. El usuario indicó que no requiere defensa.
 
 ## Integridad y protección
 
@@ -64,3 +62,7 @@ shasum -a 256 -c 07_Evidencias/01_Integridad_original/ventas_original.sha256
 ## Consulta por etapas
 
 Abrir [Entregables E1–E5](12_Entregables_por_etapa/README.md) para observar cada etapa por separado, con estado y enlaces a sus productos.
+
+## Depuración de carpetas sin uso
+
+Se eliminaron Defensa, Entregas previas E1–E5 y los marcadores vacíos de resultados, revisión humana y aportes individuales. Las evidencias de pruebas están en sus carpetas específicas y los aportes/reflexiones se completan en 08_Informe/02_Anexos_y_reflexiones. El único paquete para compartir está en 09_Entrega/02_ZIP.

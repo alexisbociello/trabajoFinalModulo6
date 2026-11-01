@@ -74,6 +74,6 @@ Los productos Docker de ambas fechas coinciden byte a byte con Python. Los metad
 
 ## Inventario y cierre
 
-En el paquete final, `MANIFIESTO_ENTREGA.json` identifica los archivos y `SHA256SUMS.txt` permite comprobarlos con `shasum -a 256 -c SHA256SUMS.txt`. Ambos se generan al empaquetar. El inventario no se incluye a sí mismo para evitar referencias circulares.
+Dentro del ZIP final, `MANIFIESTO_ENTREGA.json` identifica los archivos y `SHA256SUMS.txt` permite comprobarlos con `shasum -a 256 -c SHA256SUMS.txt`. Ambos se generan al empaquetar. El inventario no se incluye a sí mismo para evitar referencias circulares.
 
 El ZIP abre bajo una sola carpeta Modulo6_Equipo_GrupoF. Conserva material de clase y recursos de referencia, pero RedNova es un caso distinto y no sustituye los productos Horizonte. Se excluyen .git, .DS_Store, temporales y el propio ZIP. Los pendientes personales están en `PENDIENTES_PERSONALES.md`.
