@@ -1,0 +1,20 @@
+{
+  "comando": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "none",
+    "--read-only",
+    "--cap-drop",
+    "ALL",
+    "--security-opt",
+    "no-new-privileges",
+    "--entrypoint",
+    "python",
+    "sha256:8fb7032885bdce8f97c350604168f40ece6cd401da1450024565c0040359e6de",
+    "--version"
+  ],
+  "codigo_salida": 0,
+  "fecha_UTC": "2026-11-01T22:13:30.657003+00:00"
+}

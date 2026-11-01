@@ -1,0 +1,22 @@
+{
+  "registros_leidos": 1,
+  "registros_validos": 1,
+  "registros_excluidos": 0,
+  "decisiones": [
+    {
+      "registro_origen": 1,
+      "id": "T030",
+      "valores_originales": {
+        "id": "T030",
+        "fecha": "2026-10-14",
+        "categoria": "Oficina",
+        "cantidad": "1",
+        "precio_unitario": "100",
+        "costo_unitario": "70"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    }
+  ]
+}

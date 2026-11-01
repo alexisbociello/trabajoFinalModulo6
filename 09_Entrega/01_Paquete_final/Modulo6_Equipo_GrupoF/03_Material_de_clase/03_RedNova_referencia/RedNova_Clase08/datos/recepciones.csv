@@ -1,0 +1,2 @@
+recepcion_id,linea_id,pedido_id,pedido_linea_id,sucursal_id,producto_id,fecha_evento,fecha_ingesta,cantidad
+R001,1,P001,1,S03,A100,2025-06-30T10:00:00Z,2025-06-30T11:00:00Z,10

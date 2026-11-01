@@ -1,0 +1,117 @@
+{
+  "fecha_UTC": "2026-10-31T15:09:20.413463+00:00",
+  "movimientos": [
+    {
+      "origen": "Consigna_Trabajo_Final_Modulo6 (1).pdf",
+      "destino": "00_Consigna/Consigna_Trabajo_Final_Modulo6 (1).pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/ventas_original.csv",
+      "destino": "01_Original_ventas_PROTEGIDO/ventas_original.csv"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Clase_01_Lunes_Dirigir_Agente_Datos.pdf",
+      "destino": "03_Material_de_clase/02_Clases/Clase_01_Lunes_Dirigir_Agente_Datos.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Libro_Modulo6_Semana3_Agente_Analista_Documentos_y_Evidencia.pdf",
+      "destino": "03_Material_de_clase/01_Libros/Libro_Modulo6_Semana3_Agente_Analista_Documentos_y_Evidencia.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Clase_04_Miercoles_Pipeline_Python.pdf",
+      "destino": "03_Material_de_clase/02_Clases/Clase_04_Miercoles_Pipeline_Python.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Clase_02_Miercoles_Agente_Calidad.pdf",
+      "destino": "03_Material_de_clase/02_Clases/Clase_02_Miercoles_Agente_Calidad.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Clase_08_Miercoles_Docker_del_Pipeline.pdf",
+      "destino": "03_Material_de_clase/02_Clases/Clase_08_Miercoles_Docker_del_Pipeline.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Clase 5 y 6.pdf",
+      "destino": "03_Material_de_clase/02_Clases/Clase 5 y 6.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/politica_margen_v1.md",
+      "destino": "02_Insumos/02_Politicas/politica_margen_v1.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Libro_Modulo6_Semana2_Python_con_Agentes_y_Pipelines (1).pdf",
+      "destino": "03_Material_de_clase/01_Libros/Libro_Modulo6_Semana2_Python_con_Agentes_y_Pipelines (1).pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/instrucciones_agente_analista_v2.md",
+      "destino": "02_Insumos/03_Agente_analista/instrucciones_agente_analista_v2.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Clase_07_Lunes_Versiones_y_Docker.pdf",
+      "destino": "03_Material_de_clase/02_Clases/Clase_07_Lunes_Versiones_y_Docker.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/fuentes_oficiales.md",
+      "destino": "02_Insumos/06_Referencias/fuentes_oficiales.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/politica_margen_v2.md",
+      "destino": "02_Insumos/02_Politicas/politica_margen_v2.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Libro_Modulo6_Semana4_Versiones_Reproducibilidad_y_Docker.pdf",
+      "destino": "03_Material_de_clase/01_Libros/Libro_Modulo6_Semana4_Versiones_Reproducibilidad_y_Docker.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/instrucciones_agente_analista_v1.md",
+      "destino": "02_Insumos/03_Agente_analista/instrucciones_agente_analista_v1.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/diccionario_y_reglas.md",
+      "destino": "02_Insumos/01_Reglas_y_contrato/diccionario_y_reglas.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/contrato_pipeline.md",
+      "destino": "02_Insumos/01_Reglas_y_contrato/contrato_pipeline.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/roles_agentes.md",
+      "destino": "02_Insumos/03_Agente_analista/roles_agentes.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/plantilla_bitacora.md",
+      "destino": "02_Insumos/04_Plantillas/plantilla_bitacora.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Libro_Modulo6_Semana1_Datos_Calidad_y_Agentes.pdf",
+      "destino": "03_Material_de_clase/01_Libros/Libro_Modulo6_Semana1_Datos_Calidad_y_Agentes.pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/ficha_agente_analista.md",
+      "destino": "02_Insumos/03_Agente_analista/ficha_agente_analista.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Clase_03_Lunes_Python_Generado_por_Agentes (1).pdf",
+      "destino": "03_Material_de_clase/02_Clases/Clase_03_Lunes_Python_Generado_por_Agentes (1).pdf"
+    },
+    {
+      "origen": "06_Recursos_del_caso/RedNova_Clase08",
+      "destino": "03_Material_de_clase/03_RedNova_referencia/RedNova_Clase08"
+    },
+    {
+      "origen": "06_Recursos_del_caso/Recursos_Semana_2",
+      "destino": "03_Material_de_clase/04_Paquete_Semana_2/Recursos_Semana_2"
+    },
+    {
+      "origen": "06_Recursos_del_caso/plantilla_entrega.md",
+      "destino": "02_Insumos/04_Plantillas/plantilla_entrega.md"
+    },
+    {
+      "origen": "06_Recursos_del_caso/matriz_8_pruebas.csv",
+      "destino": "02_Insumos/04_Plantillas/matriz_8_pruebas.csv"
+    },
+    {
+      "origen": "06_Recursos_del_caso/documento_no_confiable_prueba.md",
+      "destino": "02_Insumos/05_Pruebas_provistas/documento_no_confiable_prueba.md"
+    }
+  ]
+}

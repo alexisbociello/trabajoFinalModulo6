@@ -1,0 +1,10 @@
+{
+  "version": "ejecucion-1.0",
+  "corte": "2025-06-30T23:59:59Z",
+  "fecha_decision": "2025-06-30",
+  "modo": "operativo_didactico",
+  "modelo_aprobado": "M0",
+  "politica_archivo": "politica_reposicion.json",
+  "reservas_fuera_del_pronostico": true,
+  "supuesto_reservas": "Los 10 compromisos reservados son previos y ajenos a la demanda libre de 140 unidades. En este conjunto sintético las ventas representan demanda libre no comprometida."
+}

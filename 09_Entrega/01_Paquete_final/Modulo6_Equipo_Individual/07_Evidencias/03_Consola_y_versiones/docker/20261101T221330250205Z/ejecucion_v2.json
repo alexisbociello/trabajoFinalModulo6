@@ -1,0 +1,27 @@
+{
+  "comando": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "none",
+    "--read-only",
+    "--cap-drop",
+    "ALL",
+    "--security-opt",
+    "no-new-privileges",
+    "--mount",
+    "type=bind,src=/Users/alexis/Desktop/Modulo 6/05_Ejecuciones/02_Docker/2026-10-19_v2/20261101T221330250205Z,dst=/salidas",
+    "sha256:8fb7032885bdce8f97c350604168f40ece6cd401da1450024565c0040359e6de",
+    "--entrada",
+    "/app/datos/ventas_original.csv",
+    "--politicas",
+    "/app/politicas",
+    "--fecha-ejecucion",
+    "2026-10-19",
+    "--salida",
+    "/salidas/productos"
+  ],
+  "codigo_salida": 0,
+  "fecha_UTC": "2026-11-01T22:13:31.140603+00:00"
+}

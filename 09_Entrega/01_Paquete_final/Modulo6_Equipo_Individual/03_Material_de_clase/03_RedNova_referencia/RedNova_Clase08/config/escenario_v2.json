@@ -1,0 +1,11 @@
+{
+  "version": "escenario-2.0",
+  "corte": "2025-06-30T23:59:59Z",
+  "fecha_decision": "2025-06-30",
+  "modo": "contrafactual",
+  "modelo_aprobado": "M0",
+  "politica_archivo": "politica_reposicion_v2.json",
+  "reservas_fuera_del_pronostico": true,
+  "supuesto_reservas": "Las reservas son compromisos previos fuera de la demanda libre pronosticada.",
+  "proposito": "Comparar seguridad 3 contra 2 días con idénticas entradas; no es una operación del 1 de julio."
+}

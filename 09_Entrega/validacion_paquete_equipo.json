@@ -1,0 +1,14 @@
+{
+  "zip": "Modulo6_Equipo_Gonzalez_Orce_Sicco_Morales.zip",
+  "integrantes": [
+    "Alexis Gonzalez",
+    "Alexia Orce",
+    "Georgina Sicco",
+    "Luis Morales"
+  ],
+  "archivos_verificados": 278,
+  "crc_valido": true,
+  "checksums_validos": true,
+  "sha256_zip": "f6316a024502599eb4e8b059a52536ff086cd75a365162b32e706e5ec186be10",
+  "nota": "Solo identidad y documentación personal actualizadas; sin cambios de código ni negocio."
+}

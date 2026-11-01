@@ -1,0 +1,25 @@
+{
+  "pruebas": 11,
+  "resultado": "11 controles aprobados; interfaz sin salida comprobada",
+  "original_intacto": true,
+  "total_v1": {
+    "registros": 13,
+    "unidades": "91",
+    "ventas": "5720",
+    "costos": "4210",
+    "margen": "1510",
+    "estado": "SIN ALERTA",
+    "margen_pct": "26.398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601",
+    "margen_pct_mostrado": "26.40"
+  },
+  "total_v2": {
+    "registros": 13,
+    "unidades": "91",
+    "ventas": "5720",
+    "costos": "4210",
+    "margen": "1510",
+    "estado": "ALERTA",
+    "margen_pct": "26.398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601",
+    "margen_pct_mostrado": "26.40"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "comando": [
+    "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+    "/Users/alexis/Desktop/Modulo 6/04_Trabajo/03_Pipeline/pipeline.py",
+    "--entrada",
+    "/Users/alexis/Desktop/Modulo 6/01_Original_ventas_PROTEGIDO/ventas_original.csv",
+    "--politicas",
+    "/Users/alexis/Desktop/Modulo 6/02_Insumos/02_Politicas",
+    "--fecha-ejecucion",
+    "2026-10-18",
+    "--salida",
+    "/Users/alexis/Desktop/Modulo 6/05_Ejecuciones/01_Python/2026-10-18_v1/ejecucion_01"
+  ],
+  "codigo_salida": 0,
+  "fecha_real_UTC": "2026-10-31T15:21:29.856609+00:00",
+  "modalidad": "Ejecutada por Codex en terminal; revisión humana no registrada",
+  "destino": "05_Ejecuciones/01_Python/2026-10-18_v1/ejecucion_01"
+}

@@ -1,0 +1,9 @@
+{
+  "comando": "python3 04_Trabajo/02_Diagnostico/ejecutar_diagnostico.py",
+  "python": "3.9.6",
+  "leidas": 16,
+  "validas": 13,
+  "excluidas": 3,
+  "original_intacto": true,
+  "original_sha256_despues": "acbf2326ddddbbad657d3a22b315cae27fa2c2b3d942986cc36427b9c33a866d"
+}

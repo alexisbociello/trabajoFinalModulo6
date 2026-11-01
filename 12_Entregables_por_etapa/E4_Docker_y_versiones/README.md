@@ -1,9 +1,12 @@
-# E4 Docker y versiones
+# E4 — Docker y versiones
 
-Etapa pendiente; los enlaces identifican destinos de trabajo, no evidencia de ejecución.
+Paquete generado y ejecutado en Docker Desktop local. Ambas políticas coinciden byte a byte con Python. Incluye acumulativamente E1–E3: [índice general](../README.md).
 
-Incluye las etapas anteriores: [volver al índice](../README.md).
+- [Paquete y guía de reproducción](../../04_Trabajo/06_Docker/README.md)
+- [Dockerfile](../../04_Trabajo/06_Docker/Dockerfile)
+- [Resultados reales Docker](../../05_Ejecuciones/02_Docker)
+- [Comparaciones con Python y manifiesto de versiones](../../05_Ejecuciones/03_Comparaciones)
+- [Comandos, consola y códigos de salida](../../07_Evidencias/03_Consola_y_versiones/docker)
+- [Bitácora E4](../../07_Evidencias/02_Bitacora/docker_v1.md)
 
-- [Carpeta Docker por completar](../../04_Trabajo/06_Docker)
-- [Resultados Docker pendientes](../../05_Ejecuciones/02_Docker)
-- [Comparaciones pendientes](../../05_Ejecuciones/03_Comparaciones)
+Ejecutor: Codex con herramientas locales. Revisión humana no registrada. No se afirma haber repetido P1–P8 dentro de Docker.

@@ -1,0 +1,18 @@
+{
+  "comando": [
+    "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+    "/Users/alexis/Desktop/Modulo 6/04_Trabajo/03_Pipeline/pipeline.py",
+    "--entrada",
+    "/Users/alexis/Desktop/Modulo 6/06_Pruebas/01_Entradas/frontera_30.csv",
+    "--politicas",
+    "/Users/alexis/Desktop/Modulo 6/02_Insumos/02_Politicas",
+    "--fecha-ejecucion",
+    "2026-10-19",
+    "--salida",
+    "/Users/alexis/Desktop/Modulo 6/06_Pruebas/02_Resultados/P7_frontera/productos"
+  ],
+  "codigo_salida": 0,
+  "fecha_real_UTC": "2026-10-31T15:21:29.915532+00:00",
+  "modalidad": "Ejecutada por Codex en terminal; revisión humana no registrada",
+  "destino": "06_Pruebas/02_Resultados/P7_frontera/productos"
+}

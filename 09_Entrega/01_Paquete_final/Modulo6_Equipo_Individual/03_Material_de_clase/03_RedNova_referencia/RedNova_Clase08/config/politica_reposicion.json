@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "desde": "2025-01-01",
+  "hasta": "2025-07-01",
+  "horizonte_dias": 7,
+  "dias_seguridad": 2,
+  "regla": "SS=techo(D7/7*s); objetivo=techo(D7+SS); Q=max(0,objetivo-(stock-reservado)-transito_elegible)",
+  "aprobacion": "Didáctica; toda propuesta requiere revisión humana"
+}

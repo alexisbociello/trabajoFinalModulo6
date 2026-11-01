@@ -1,0 +1,41 @@
+{
+  "registros_leidos": 2,
+  "registros_validos": 0,
+  "registros_excluidos": 2,
+  "decisiones": [
+    {
+      "registro_origen": 1,
+      "id": "V014",
+      "valores_originales": {
+        "id": "V014",
+        "fecha": "2026-10-13",
+        "categoria": "Hogar",
+        "cantidad": "-2",
+        "precio_unitario": "75",
+        "costo_unitario": "50"
+      },
+      "decision": "EXCLUIR",
+      "motivos": [
+        "cantidad: debe ser entero positivo"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 2,
+      "id": "V015",
+      "valores_originales": {
+        "id": "V015",
+        "fecha": "2026-10-14",
+        "categoria": "Oficina",
+        "cantidad": "7",
+        "precio_unitario": "",
+        "costo_unitario": "11"
+      },
+      "decision": "EXCLUIR",
+      "motivos": [
+        "precio_unitario: vacío o no numérico"
+      ],
+      "referencia_duplicado": null
+    }
+  ]
+}

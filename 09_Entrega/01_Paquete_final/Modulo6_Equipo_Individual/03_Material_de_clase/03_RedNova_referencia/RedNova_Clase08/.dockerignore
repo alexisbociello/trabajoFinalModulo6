@@ -1,0 +1,9 @@
+# Lista permitida: las fuentes CSV, las configuraciones y salidas no entran a la imagen.
+**
+!Dockerfile
+!.dockerignore
+!requirements.lock
+!src/
+!src/**
+src/**/__pycache__
+src/**/*.pyc

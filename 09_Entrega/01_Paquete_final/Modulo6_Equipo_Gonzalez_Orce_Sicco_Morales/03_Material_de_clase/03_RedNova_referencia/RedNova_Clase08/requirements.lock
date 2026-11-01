@@ -1,0 +1,4 @@
+# Dependencias externas: ninguna.
+# Se utiliza exclusivamente la biblioteca estandar de Python 3.11 o posterior.
+# Docker usa la imagen oficial Python 3.12-slim; su ID se registra al construir.
+# Este archivo no fija el sistema operativo ni convierte una etiqueta en digest.

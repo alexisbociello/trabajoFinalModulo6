@@ -1,10 +1,14 @@
-# E5 Supervision y cierre
+# E5 - Supervisión y cierre
 
-Etapa pendiente; los enlaces identifican destinos de trabajo, no evidencia de ejecución.
+Operación, informe, anexos y paquete técnico generados. Reflexiones personales y aportes individuales continúan pendientes de adaptación; no se atribuye revisión humana inexistente.
 
-Incluye las etapas anteriores: [volver al índice](../README.md).
+- [Plan de supervisión y recuperación](../../04_Trabajo/07_Supervision_y_recuperacion/plan_supervision_y_recuperacion.md)
+- [Auditoría y ensayos reales de recuperación](../../05_Ejecuciones/04_Recuperacion)
+- [Informe PDF](../../08_Informe/03_PDF_final/Informe_Final_Modulo6_GrupoF.pdf)
+- [Informe editable](../../08_Informe/01_Borradores/informe_final_editable.md)
+- [Anexos y borrador de reflexión](../../08_Informe/02_Anexos_y_reflexiones)
+- [README global de reproducción](../../README.md)
+- [Pendientes personales](../../PENDIENTES_PERSONALES.md)
+- [Bitácoras](../../07_Evidencias/02_Bitacora)
 
-- [Plan de supervisión por completar](../../04_Trabajo/07_Supervision_y_recuperacion)
-- [Pruebas y detenciones ya ejecutadas](../../06_Pruebas/02_Resultados)
-- [Informe pendiente](../../08_Informe)
-- [Paquete de entrega pendiente](../../09_Entrega)
+La matriz completa se repitió en una copia nueva durante el cierre y resultó satisfactoria. Incluye acumulativamente [E1–E4](../README.md).

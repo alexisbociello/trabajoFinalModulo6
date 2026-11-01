@@ -1,0 +1,253 @@
+{
+  "registros_leidos": 16,
+  "registros_validos": 13,
+  "registros_excluidos": 3,
+  "decisiones": [
+    {
+      "registro_origen": 1,
+      "id": "V001",
+      "valores_originales": {
+        "id": "V001",
+        "fecha": "2026-10-05",
+        "categoria": "Oficina",
+        "cantidad": "10",
+        "precio_unitario": "25",
+        "costo_unitario": "15"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 2,
+      "id": "V002",
+      "valores_originales": {
+        "id": "V002",
+        "fecha": "2026-10-05",
+        "categoria": "Tecnologia",
+        "cantidad": "2",
+        "precio_unitario": "600",
+        "costo_unitario": "420"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 3,
+      "id": "V003",
+      "valores_originales": {
+        "id": "V003",
+        "fecha": "2026-10-06",
+        "categoria": "Hogar",
+        "cantidad": "5",
+        "precio_unitario": "80",
+        "costo_unitario": "56"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 4,
+      "id": "V004",
+      "valores_originales": {
+        "id": "V004",
+        "fecha": "2026-10-06",
+        "categoria": "Oficina",
+        "cantidad": "20",
+        "precio_unitario": "12",
+        "costo_unitario": "8"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 5,
+      "id": "V005",
+      "valores_originales": {
+        "id": "V005",
+        "fecha": "2026-10-07",
+        "categoria": "Tecnologia",
+        "cantidad": "3",
+        "precio_unitario": "150",
+        "costo_unitario": "120"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 6,
+      "id": "V006",
+      "valores_originales": {
+        "id": "V006",
+        "fecha": "2026-10-07",
+        "categoria": "Hogar",
+        "cantidad": "4",
+        "precio_unitario": "100",
+        "costo_unitario": "85"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 7,
+      "id": "V007",
+      "valores_originales": {
+        "id": "V007",
+        "fecha": "2026-10-08",
+        "categoria": "Oficina",
+        "cantidad": "8",
+        "precio_unitario": "30",
+        "costo_unitario": "18"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 8,
+      "id": "V008",
+      "valores_originales": {
+        "id": "V008",
+        "fecha": "2026-10-08",
+        "categoria": "Tecnologia",
+        "cantidad": "1",
+        "precio_unitario": "900",
+        "costo_unitario": "720"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 9,
+      "id": "V009",
+      "valores_originales": {
+        "id": "V009",
+        "fecha": "2026-10-09",
+        "categoria": "Hogar",
+        "cantidad": "6",
+        "precio_unitario": "50",
+        "costo_unitario": "35"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 10,
+      "id": "V010",
+      "valores_originales": {
+        "id": "V010",
+        "fecha": "2026-10-09",
+        "categoria": "Oficina",
+        "cantidad": "15",
+        "precio_unitario": "20",
+        "costo_unitario": "14"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 11,
+      "id": "V011",
+      "valores_originales": {
+        "id": "V011",
+        "fecha": "2026-10-12",
+        "categoria": "Tecnologia",
+        "cantidad": "2",
+        "precio_unitario": "250",
+        "costo_unitario": "200"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 12,
+      "id": "V012",
+      "valores_originales": {
+        "id": "V012",
+        "fecha": "2026-10-12",
+        "categoria": "Hogar",
+        "cantidad": "3",
+        "precio_unitario": "120",
+        "costo_unitario": "96"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 13,
+      "id": "V013",
+      "valores_originales": {
+        "id": "V013",
+        "fecha": "2026-10-13",
+        "categoria": "Oficina",
+        "cantidad": "12",
+        "precio_unitario": "15",
+        "costo_unitario": "9"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 14,
+      "id": "V005",
+      "valores_originales": {
+        "id": "V005",
+        "fecha": "2026-10-07",
+        "categoria": "Tecnologia",
+        "cantidad": "3",
+        "precio_unitario": "150",
+        "costo_unitario": "120"
+      },
+      "decision": "EXCLUIR",
+      "motivos": [
+        "Duplicado exacto; conservar primera aparición"
+      ],
+      "referencia_duplicado": 5
+    },
+    {
+      "registro_origen": 15,
+      "id": "V014",
+      "valores_originales": {
+        "id": "V014",
+        "fecha": "2026-10-13",
+        "categoria": "Hogar",
+        "cantidad": "-2",
+        "precio_unitario": "75",
+        "costo_unitario": "50"
+      },
+      "decision": "EXCLUIR",
+      "motivos": [
+        "cantidad: debe ser entero positivo"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 16,
+      "id": "V015",
+      "valores_originales": {
+        "id": "V015",
+        "fecha": "2026-10-14",
+        "categoria": "Oficina",
+        "cantidad": "7",
+        "precio_unitario": "",
+        "costo_unitario": "11"
+      },
+      "decision": "EXCLUIR",
+      "motivos": [
+        "precio_unitario: vacío o no numérico"
+      ],
+      "referencia_duplicado": null
+    }
+  ]
+}

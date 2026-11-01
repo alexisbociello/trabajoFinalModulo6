@@ -1,0 +1,27 @@
+{
+  "escenario_previo": "Detencion_politica_faltante",
+  "tipo": "Ensayo de recuperación con sustitución explícita por fuente válida conocida; no resolución automática del archivo defectuoso",
+  "entrada_reanudacion": "01_Original_ventas_PROTEGIDO/ventas_original.csv",
+  "politicas_reanudacion": "02_Insumos/02_Politicas",
+  "fecha_simulada": "2026-10-19",
+  "comando": [
+    "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+    "/Users/alexis/Desktop/Modulo 6/04_Trabajo/03_Pipeline/pipeline.py",
+    "--entrada",
+    "/Users/alexis/Desktop/Modulo 6/01_Original_ventas_PROTEGIDO/ventas_original.csv",
+    "--politicas",
+    "/Users/alexis/Desktop/Modulo 6/02_Insumos/02_Politicas",
+    "--fecha-ejecucion",
+    "2026-10-19",
+    "--salida",
+    "/Users/alexis/Desktop/Modulo 6/05_Ejecuciones/04_Recuperacion/20261101T221547185846Z/Detencion_politica_faltante/productos"
+  ],
+  "codigo_salida": 0,
+  "coincidencia_con_v2": {
+    "ventas_validas.csv": true,
+    "reporte_calidad.json": true,
+    "resumen.json": true
+  },
+  "salida_nueva": "05_Ejecuciones/04_Recuperacion/20261101T221547185846Z/Detencion_politica_faltante",
+  "decision_humana_sobre_datos_reales": "No aplica: prueba sintética; no se eligió entre contenidos conflictivos"
+}

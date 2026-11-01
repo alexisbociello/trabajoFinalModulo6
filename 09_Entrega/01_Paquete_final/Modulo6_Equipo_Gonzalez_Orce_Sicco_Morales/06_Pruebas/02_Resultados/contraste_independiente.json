@@ -1,0 +1,36 @@
+{
+  "metodo": "Fraction de biblioteca estándar; primeros 13 registros contrastados con diagnóstico",
+  "agregados": {
+    "Oficina": {
+      "unidades": "65",
+      "ventas": "1210",
+      "costos": "772",
+      "margen": "438"
+    },
+    "TOTAL": {
+      "unidades": "91",
+      "ventas": "5720",
+      "costos": "4210",
+      "margen": "1510"
+    },
+    "Tecnologia": {
+      "unidades": "8",
+      "ventas": "3050",
+      "costos": "2320",
+      "margen": "730"
+    },
+    "Hogar": {
+      "unidades": "18",
+      "ventas": "1460",
+      "costos": "1118",
+      "margen": "342"
+    }
+  },
+  "porcentaje_total_fraccion_exacta": "3775/143",
+  "V001_V002": {
+    "ventas": "1450",
+    "margen": "460",
+    "porcentaje_fraccion_exacta": "920/29",
+    "promedio_simple_incorrecto": "35"
+  }
+}

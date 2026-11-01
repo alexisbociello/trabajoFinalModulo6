@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!pipeline.py
+!datos/
+!datos/ventas_original.csv
+!politicas/
+!politicas/politica_margen_v1.md
+!politicas/politica_margen_v2.md

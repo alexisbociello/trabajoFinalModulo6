@@ -1,0 +1,469 @@
+{
+  "ventas_validas": [
+    {
+      "id": "V001",
+      "fecha": "2026-10-05",
+      "categoria": "Oficina",
+      "cantidad": "10",
+      "precio_unitario": "25",
+      "costo_unitario": "15",
+      "registro_origen": 1,
+      "ventas": "250",
+      "costos": "150",
+      "margen": "100"
+    },
+    {
+      "id": "V002",
+      "fecha": "2026-10-05",
+      "categoria": "Tecnologia",
+      "cantidad": "2",
+      "precio_unitario": "600",
+      "costo_unitario": "420",
+      "registro_origen": 2,
+      "ventas": "1200",
+      "costos": "840",
+      "margen": "360"
+    },
+    {
+      "id": "V003",
+      "fecha": "2026-10-06",
+      "categoria": "Hogar",
+      "cantidad": "5",
+      "precio_unitario": "80",
+      "costo_unitario": "56",
+      "registro_origen": 3,
+      "ventas": "400",
+      "costos": "280",
+      "margen": "120"
+    },
+    {
+      "id": "V004",
+      "fecha": "2026-10-06",
+      "categoria": "Oficina",
+      "cantidad": "20",
+      "precio_unitario": "12",
+      "costo_unitario": "8",
+      "registro_origen": 4,
+      "ventas": "240",
+      "costos": "160",
+      "margen": "80"
+    },
+    {
+      "id": "V005",
+      "fecha": "2026-10-07",
+      "categoria": "Tecnologia",
+      "cantidad": "3",
+      "precio_unitario": "150",
+      "costo_unitario": "120",
+      "registro_origen": 5,
+      "ventas": "450",
+      "costos": "360",
+      "margen": "90"
+    },
+    {
+      "id": "V006",
+      "fecha": "2026-10-07",
+      "categoria": "Hogar",
+      "cantidad": "4",
+      "precio_unitario": "100",
+      "costo_unitario": "85",
+      "registro_origen": 6,
+      "ventas": "400",
+      "costos": "340",
+      "margen": "60"
+    },
+    {
+      "id": "V007",
+      "fecha": "2026-10-08",
+      "categoria": "Oficina",
+      "cantidad": "8",
+      "precio_unitario": "30",
+      "costo_unitario": "18",
+      "registro_origen": 7,
+      "ventas": "240",
+      "costos": "144",
+      "margen": "96"
+    },
+    {
+      "id": "V008",
+      "fecha": "2026-10-08",
+      "categoria": "Tecnologia",
+      "cantidad": "1",
+      "precio_unitario": "900",
+      "costo_unitario": "720",
+      "registro_origen": 8,
+      "ventas": "900",
+      "costos": "720",
+      "margen": "180"
+    },
+    {
+      "id": "V009",
+      "fecha": "2026-10-09",
+      "categoria": "Hogar",
+      "cantidad": "6",
+      "precio_unitario": "50",
+      "costo_unitario": "35",
+      "registro_origen": 9,
+      "ventas": "300",
+      "costos": "210",
+      "margen": "90"
+    },
+    {
+      "id": "V010",
+      "fecha": "2026-10-09",
+      "categoria": "Oficina",
+      "cantidad": "15",
+      "precio_unitario": "20",
+      "costo_unitario": "14",
+      "registro_origen": 10,
+      "ventas": "300",
+      "costos": "210",
+      "margen": "90"
+    },
+    {
+      "id": "V011",
+      "fecha": "2026-10-12",
+      "categoria": "Tecnologia",
+      "cantidad": "2",
+      "precio_unitario": "250",
+      "costo_unitario": "200",
+      "registro_origen": 11,
+      "ventas": "500",
+      "costos": "400",
+      "margen": "100"
+    },
+    {
+      "id": "V012",
+      "fecha": "2026-10-12",
+      "categoria": "Hogar",
+      "cantidad": "3",
+      "precio_unitario": "120",
+      "costo_unitario": "96",
+      "registro_origen": 12,
+      "ventas": "360",
+      "costos": "288",
+      "margen": "72"
+    },
+    {
+      "id": "V013",
+      "fecha": "2026-10-13",
+      "categoria": "Oficina",
+      "cantidad": "12",
+      "precio_unitario": "15",
+      "costo_unitario": "9",
+      "registro_origen": 13,
+      "ventas": "180",
+      "costos": "108",
+      "margen": "72"
+    }
+  ],
+  "reporte_calidad": {
+    "registros_leidos": 16,
+    "registros_validos": 13,
+    "registros_excluidos": 3,
+    "decisiones": [
+      {
+        "registro_origen": 1,
+        "id": "V001",
+        "valores_originales": {
+          "id": "V001",
+          "fecha": "2026-10-05",
+          "categoria": "Oficina",
+          "cantidad": "10",
+          "precio_unitario": "25",
+          "costo_unitario": "15"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 2,
+        "id": "V002",
+        "valores_originales": {
+          "id": "V002",
+          "fecha": "2026-10-05",
+          "categoria": "Tecnologia",
+          "cantidad": "2",
+          "precio_unitario": "600",
+          "costo_unitario": "420"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 3,
+        "id": "V003",
+        "valores_originales": {
+          "id": "V003",
+          "fecha": "2026-10-06",
+          "categoria": "Hogar",
+          "cantidad": "5",
+          "precio_unitario": "80",
+          "costo_unitario": "56"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 4,
+        "id": "V004",
+        "valores_originales": {
+          "id": "V004",
+          "fecha": "2026-10-06",
+          "categoria": "Oficina",
+          "cantidad": "20",
+          "precio_unitario": "12",
+          "costo_unitario": "8"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 5,
+        "id": "V005",
+        "valores_originales": {
+          "id": "V005",
+          "fecha": "2026-10-07",
+          "categoria": "Tecnologia",
+          "cantidad": "3",
+          "precio_unitario": "150",
+          "costo_unitario": "120"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 6,
+        "id": "V006",
+        "valores_originales": {
+          "id": "V006",
+          "fecha": "2026-10-07",
+          "categoria": "Hogar",
+          "cantidad": "4",
+          "precio_unitario": "100",
+          "costo_unitario": "85"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 7,
+        "id": "V007",
+        "valores_originales": {
+          "id": "V007",
+          "fecha": "2026-10-08",
+          "categoria": "Oficina",
+          "cantidad": "8",
+          "precio_unitario": "30",
+          "costo_unitario": "18"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 8,
+        "id": "V008",
+        "valores_originales": {
+          "id": "V008",
+          "fecha": "2026-10-08",
+          "categoria": "Tecnologia",
+          "cantidad": "1",
+          "precio_unitario": "900",
+          "costo_unitario": "720"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 9,
+        "id": "V009",
+        "valores_originales": {
+          "id": "V009",
+          "fecha": "2026-10-09",
+          "categoria": "Hogar",
+          "cantidad": "6",
+          "precio_unitario": "50",
+          "costo_unitario": "35"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 10,
+        "id": "V010",
+        "valores_originales": {
+          "id": "V010",
+          "fecha": "2026-10-09",
+          "categoria": "Oficina",
+          "cantidad": "15",
+          "precio_unitario": "20",
+          "costo_unitario": "14"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 11,
+        "id": "V011",
+        "valores_originales": {
+          "id": "V011",
+          "fecha": "2026-10-12",
+          "categoria": "Tecnologia",
+          "cantidad": "2",
+          "precio_unitario": "250",
+          "costo_unitario": "200"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 12,
+        "id": "V012",
+        "valores_originales": {
+          "id": "V012",
+          "fecha": "2026-10-12",
+          "categoria": "Hogar",
+          "cantidad": "3",
+          "precio_unitario": "120",
+          "costo_unitario": "96"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 13,
+        "id": "V013",
+        "valores_originales": {
+          "id": "V013",
+          "fecha": "2026-10-13",
+          "categoria": "Oficina",
+          "cantidad": "12",
+          "precio_unitario": "15",
+          "costo_unitario": "9"
+        },
+        "decision": "ACEPTAR",
+        "motivos": [],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 14,
+        "id": "V005",
+        "valores_originales": {
+          "id": "V005",
+          "fecha": "2026-10-07",
+          "categoria": "Tecnologia",
+          "cantidad": "3",
+          "precio_unitario": "150",
+          "costo_unitario": "120"
+        },
+        "decision": "EXCLUIR",
+        "motivos": [
+          "Duplicado exacto; conservar primera aparición"
+        ],
+        "referencia_duplicado": 5
+      },
+      {
+        "registro_origen": 15,
+        "id": "V014",
+        "valores_originales": {
+          "id": "V014",
+          "fecha": "2026-10-13",
+          "categoria": "Hogar",
+          "cantidad": "-2",
+          "precio_unitario": "75",
+          "costo_unitario": "50"
+        },
+        "decision": "EXCLUIR",
+        "motivos": [
+          "cantidad: debe ser entero positivo"
+        ],
+        "referencia_duplicado": null
+      },
+      {
+        "registro_origen": 16,
+        "id": "V015",
+        "valores_originales": {
+          "id": "V015",
+          "fecha": "2026-10-14",
+          "categoria": "Oficina",
+          "cantidad": "7",
+          "precio_unitario": "",
+          "costo_unitario": "11"
+        },
+        "decision": "EXCLUIR",
+        "motivos": [
+          "precio_unitario: vacío o no numérico"
+        ],
+        "referencia_duplicado": null
+      }
+    ]
+  },
+  "resumen": {
+    "fecha_ejecucion": "2026-10-18",
+    "politica": {
+      "version": "v1",
+      "desde": "2026-10-05",
+      "hasta": "2026-10-18",
+      "umbral_pct": "25",
+      "operador": "<",
+      "archivo": "politica_margen_v1.md"
+    },
+    "categorias": {
+      "Oficina": {
+        "registros": 5,
+        "unidades": "65",
+        "ventas": "1210",
+        "costos": "772",
+        "margen": "438",
+        "estado": "SIN ALERTA",
+        "margen_pct": "36.198347107438016528925619834710743801652892561983471074380165289256198347107438016528925619834710743801652892561983471074380165289256",
+        "margen_pct_mostrado": "36.20"
+      },
+      "Tecnologia": {
+        "registros": 4,
+        "unidades": "8",
+        "ventas": "3050",
+        "costos": "2320",
+        "margen": "730",
+        "estado": "ALERTA",
+        "margen_pct": "23.934426229508196721311475409836065573770491803278688524590163934426229508196721311475409836065573770491803278688524590163934426229508",
+        "margen_pct_mostrado": "23.93"
+      },
+      "Hogar": {
+        "registros": 4,
+        "unidades": "18",
+        "ventas": "1460",
+        "costos": "1118",
+        "margen": "342",
+        "estado": "ALERTA",
+        "margen_pct": "23.424657534246575342465753424657534246575342465753424657534246575342465753424657534246575342465753424657534246575342465753424657534247",
+        "margen_pct_mostrado": "23.42"
+      }
+    },
+    "total": {
+      "registros": 13,
+      "unidades": "91",
+      "ventas": "5720",
+      "costos": "4210",
+      "margen": "1510",
+      "estado": "SIN ALERTA",
+      "margen_pct": "26.398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601",
+      "margen_pct_mostrado": "26.40"
+    },
+    "nota_precision": "Porcentaje periódico representado con precisión decimal; clasificación por productos cruzados exactos.",
+    "pipeline_version": "1.0.0",
+    "entrada_sha256": "acbf2326ddddbbad657d3a22b315cae27fa2c2b3d942986cc36427b9c33a866d"
+  }
+}

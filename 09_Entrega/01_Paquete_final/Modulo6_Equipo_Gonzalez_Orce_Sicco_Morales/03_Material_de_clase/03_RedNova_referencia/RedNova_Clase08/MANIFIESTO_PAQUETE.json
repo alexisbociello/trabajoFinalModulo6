@@ -1,0 +1,166 @@
+{
+  "paquete": "RedNova_Clase08",
+  "edicion": "estudiantes",
+  "version": "1.1.0-estudiantes",
+  "fecha_clase": "2026-10-28",
+  "iniciar_en": "README_INICIO.md",
+  "nota": "Datos sintéticos, código, guías de la actividad, plantilla sin completar y PDFs de estudio. Cada equipo genera sus propias corridas.",
+  "archivos": {
+    ".dockerignore": {
+      "bytes": 184,
+      "sha256": "1255ca7a613534ea71d514fe7b870ead4caec6fd4075366aef70ca0583e08c5b"
+    },
+    ".gitignore": {
+      "bytes": 236,
+      "sha256": "9c3544fc8d4d4d834d309f0c9407dd0ec90fc9bb264c0a0febf96df1552f7f73"
+    },
+    "CONSIGNA_ETAPAS.md": {
+      "bytes": 1947,
+      "sha256": "e8086fa03e82b49a8c6ba385decbc68b96ba20180626df4becfb47671e7de5d6"
+    },
+    "CONTRATO_DATOS.md": {
+      "bytes": 15378,
+      "sha256": "2a7e6a90558f3b8918a083e65a64277159d3b5f2205c4de82a80dac617b20332"
+    },
+    "Dockerfile": {
+      "bytes": 680,
+      "sha256": "0a698af7674ca2fb262af1b19bf328fe004f1ba45db37b7fa91e24cfaed8b74e"
+    },
+    "GUIA_DOCKER.md": {
+      "bytes": 10870,
+      "sha256": "4b6509d0a685e042404dd45e7f6abd004cc25ac45e6b4e03618b178a29dcc8a0"
+    },
+    "GUIA_GIT.md": {
+      "bytes": 7261,
+      "sha256": "4041cfcc670a0f7b1c485dca99b2ede7dcb109a2209379373b2c343e758c7e3b"
+    },
+    "PLANTILLA_ENTREGA.md": {
+      "bytes": 2223,
+      "sha256": "0b0dbdbefbdf135bb0d58a07499fbf32d5aa71f6d347da9bad70c735dc50d85e"
+    },
+    "PREPARACION_ANTES_DE_CLASE.md": {
+      "bytes": 5079,
+      "sha256": "c19128e23b54ee87af6a65595ed02d0ada6722fabd12387657a0ee8e5492a0d1"
+    },
+    "PROMPTS_PARA_LA_PRACTICA.md": {
+      "bytes": 2713,
+      "sha256": "dc6821d8aea9a76fa519b59569717c073e7ca133c5d1eef72b53e833f225dbe0"
+    },
+    "README_INICIO.md": {
+      "bytes": 10748,
+      "sha256": "c76c281c81c67ff2d29a827dab42054f5d7e82a80f8800578b42549cfecbfbe2"
+    },
+    "config/ejecucion.json": {
+      "bytes": 448,
+      "sha256": "fea83744915a1a159f58c349d547140e2c53586b26fc071d9125c3288211c512"
+    },
+    "config/escenario_v2.json": {
+      "bytes": 469,
+      "sha256": "47c1600bea6a0a2024695e1df379d978cd2c07d055ebdb67ef1b99c13a17a738"
+    },
+    "config/politica_reposicion.json": {
+      "bytes": 299,
+      "sha256": "cb77a46a454b3fbb8d0ab64d55563b3c42bb26c433f22e21da3a24866e2cb444"
+    },
+    "config/politica_reposicion_v2.json": {
+      "bytes": 317,
+      "sha256": "664fc9e4b99aa548b95d2b308043113c7b2d803e18355d17001e0d9b56591732"
+    },
+    "datos/costos_vigentes.csv": {
+      "bytes": 229,
+      "sha256": "6b54790f6ec69affb2b887dd3e78a1dd62a46cd2b5a5a0d484e4c93b6a1c10a5"
+    },
+    "datos/inventario_diario.csv": {
+      "bytes": 31404,
+      "sha256": "6ff68adefef40932e4871f0805268fc49dd3d3618e0855f9c5a434f36ea029f5"
+    },
+    "datos/pedidos_abiertos.csv": {
+      "bytes": 404,
+      "sha256": "500048f5965e6e1201c5208e8a241ba6b3dcb9160462f9d4630eb20ad4386533"
+    },
+    "datos/productos.csv": {
+      "bytes": 131,
+      "sha256": "f20963373dd87491e1223da85ec220e247e0e3724f84222b4759946b92e649c8"
+    },
+    "datos/recepciones.csv": {
+      "bytes": 176,
+      "sha256": "645b436f243df99ecd1f9619179a1b5da734d579e22d6b9e38a8435a2a199322"
+    },
+    "datos/snapshot_fuentes.json": {
+      "bytes": 4842,
+      "sha256": "a928fe26e8d833ee899ec417c2535b9d43f5ac35295862b20a4caa68c62c7252"
+    },
+    "datos/sucursales.csv": {
+      "bytes": 65,
+      "sha256": "ac2a2f0f5bc3bce5c63c552555e4c8201bcdf3e6012fabe5f70b621a4b88debd"
+    },
+    "datos/ventas_lineas.csv": {
+      "bytes": 40837,
+      "sha256": "5c3f9dfcda632c724ebb2aeca3484f002f2a7404b160e08e105612315953ec4c"
+    },
+    "material/Clase_08_Miercoles_Docker_del_Pipeline.pdf": {
+      "bytes": 100690,
+      "sha256": "54124e3962bd3947f51aa6b6146c0c52fd90ccdaf5944e94a1704cccb35d08d5"
+    },
+    "material/referencia_lunes/Clase_07_Lunes_Versiones_y_Docker.pdf": {
+      "bytes": 92656,
+      "sha256": "fc0853e9f9bc1bdb26a1cadc87826f5594961cc6ff2d55aa8db2610fbfafae15"
+    },
+    "material/referencia_lunes/Libro_Modulo6_Semana4_Versiones_Reproducibilidad_y_Docker.pdf": {
+      "bytes": 210155,
+      "sha256": "fa64c511e2c53078c237e549e765c74d51711218a177bf77fe68cfe16ee974c4"
+    },
+    "modelos/README.md": {
+      "bytes": 927,
+      "sha256": "fc5bab7aad9a280e25a8ceefbef2aa61e86e2900b83764d820ce37992d9e9a91"
+    },
+    "requirements.lock": {
+      "bytes": 275,
+      "sha256": "ba38b2b791fa5faf3fb942c8d07f01cd36452a3f459fdd675aceec24fdf0dbd4"
+    },
+    "scripts/comparar.py": {
+      "bytes": 3707,
+      "sha256": "d29f5e69011005b444a07b96dee6cad78e4fd51c1dbdfa756994e2f4162c26cc"
+    },
+    "scripts/ejecutar.py": {
+      "bytes": 11214,
+      "sha256": "bcc59f3c2bd0c08ed53c1057c3387149c9db9780201e2957ba684a1f621a8fd1"
+    },
+    "scripts/entregar.py": {
+      "bytes": 4049,
+      "sha256": "c7cf4fb3694cdaff717639e08049c4664838180cf01603caf4c248d133dfd0a1"
+    },
+    "scripts/generar_datos.py": {
+      "bytes": 7636,
+      "sha256": "b544d62c603f5798a6b8e5ff2abe4e4f1d5092d18f164c2900192724bd324d7e"
+    },
+    "src/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/comun.py": {
+      "bytes": 14659,
+      "sha256": "9c7c580f6282f84dcbf39f00c3c5c1b332a3de2de36c0d4fdc2984e3d80c788e"
+    },
+    "src/entrenar.py": {
+      "bytes": 9350,
+      "sha256": "fcb62d6f667e142d95fda9c3517c4e1c5721bcccfad4faba02b48c13f2ae4fc3"
+    },
+    "src/pipeline.py": {
+      "bytes": 11197,
+      "sha256": "c856c6f9d2f466fb41b82838fa4ab79bb133a3bd62132956a3cde6ef579e9b09"
+    },
+    "tests/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tests/test_herramientas.py": {
+      "bytes": 4426,
+      "sha256": "2372b1b0a2979cfac8a5f46fbeb48fa9f5c7322fc0b2be11d45bdc50de7e824b"
+    },
+    "tests/test_rednova.py": {
+      "bytes": 9198,
+      "sha256": "e33350fda6776ee5e48eb68ef48849df9ac6ada34483ebb41924f63d8aa07203"
+    }
+  }
+}

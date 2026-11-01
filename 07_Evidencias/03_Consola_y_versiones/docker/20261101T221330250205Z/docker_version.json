@@ -1,0 +1,10 @@
+{
+  "comando": [
+    "docker",
+    "version",
+    "--format",
+    "{{json .}}"
+  ],
+  "codigo_salida": 0,
+  "fecha_UTC": "2026-11-01T22:13:30.272671+00:00"
+}

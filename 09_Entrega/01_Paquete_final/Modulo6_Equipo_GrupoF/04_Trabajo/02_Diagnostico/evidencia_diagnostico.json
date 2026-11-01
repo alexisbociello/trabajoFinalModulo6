@@ -1,0 +1,279 @@
+{
+  "fecha_real_UTC": "2026-10-31T15:17:16.677424+00:00",
+  "ejecutor": "Codex mediante herramienta de terminal",
+  "modalidad": "ejecución del agente en carpeta autorizada; revisión humana pendiente",
+  "comando": "python3 04_Trabajo/02_Diagnostico/ejecutar_diagnostico.py",
+  "python": "3.9.6",
+  "fuentes": {
+    "01_Original_ventas_PROTEGIDO/ventas_original.csv": "acbf2326ddddbbad657d3a22b315cae27fa2c2b3d942986cc36427b9c33a866d",
+    "04_Trabajo/01_Copias_de_datos/ventas_trabajo.csv": "acbf2326ddddbbad657d3a22b315cae27fa2c2b3d942986cc36427b9c33a866d",
+    "02_Insumos/01_Reglas_y_contrato/diccionario_y_reglas.md": "482f6f8988fef377e10ece9d3f135fa52e62465ecc90acbf1bd2dd3679662881",
+    "02_Insumos/01_Reglas_y_contrato/contrato_pipeline.md": "186e87f41477087a7855d5201299d61ad8eab053ea47db50971fe46fe877fe1b",
+    "04_Trabajo/02_Diagnostico/ejecutar_diagnostico.py": "7abc2c7f1d7d95e17902e8a8a264d00a70e9e05030aeeb75a0c9090627eeb8e3"
+  },
+  "original_sha256_antes": "acbf2326ddddbbad657d3a22b315cae27fa2c2b3d942986cc36427b9c33a866d",
+  "original_sha256_despues": "acbf2326ddddbbad657d3a22b315cae27fa2c2b3d942986cc36427b9c33a866d",
+  "original_intacto": true,
+  "leidas": 16,
+  "validas": 13,
+  "excluidas": 3,
+  "detenciones_detectadas": [],
+  "registros": [
+    {
+      "registro_origen": 1,
+      "valores_originales": {
+        "id": "V001",
+        "fecha": "2026-10-05",
+        "categoria": "Oficina",
+        "cantidad": "10",
+        "precio_unitario": "25",
+        "costo_unitario": "15"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 2,
+      "valores_originales": {
+        "id": "V002",
+        "fecha": "2026-10-05",
+        "categoria": "Tecnologia",
+        "cantidad": "2",
+        "precio_unitario": "600",
+        "costo_unitario": "420"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 3,
+      "valores_originales": {
+        "id": "V003",
+        "fecha": "2026-10-06",
+        "categoria": "Hogar",
+        "cantidad": "5",
+        "precio_unitario": "80",
+        "costo_unitario": "56"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 4,
+      "valores_originales": {
+        "id": "V004",
+        "fecha": "2026-10-06",
+        "categoria": "Oficina",
+        "cantidad": "20",
+        "precio_unitario": "12",
+        "costo_unitario": "8"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 5,
+      "valores_originales": {
+        "id": "V005",
+        "fecha": "2026-10-07",
+        "categoria": "Tecnologia",
+        "cantidad": "3",
+        "precio_unitario": "150",
+        "costo_unitario": "120"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 6,
+      "valores_originales": {
+        "id": "V006",
+        "fecha": "2026-10-07",
+        "categoria": "Hogar",
+        "cantidad": "4",
+        "precio_unitario": "100",
+        "costo_unitario": "85"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 7,
+      "valores_originales": {
+        "id": "V007",
+        "fecha": "2026-10-08",
+        "categoria": "Oficina",
+        "cantidad": "8",
+        "precio_unitario": "30",
+        "costo_unitario": "18"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 8,
+      "valores_originales": {
+        "id": "V008",
+        "fecha": "2026-10-08",
+        "categoria": "Tecnologia",
+        "cantidad": "1",
+        "precio_unitario": "900",
+        "costo_unitario": "720"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 9,
+      "valores_originales": {
+        "id": "V009",
+        "fecha": "2026-10-09",
+        "categoria": "Hogar",
+        "cantidad": "6",
+        "precio_unitario": "50",
+        "costo_unitario": "35"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 10,
+      "valores_originales": {
+        "id": "V010",
+        "fecha": "2026-10-09",
+        "categoria": "Oficina",
+        "cantidad": "15",
+        "precio_unitario": "20",
+        "costo_unitario": "14"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 11,
+      "valores_originales": {
+        "id": "V011",
+        "fecha": "2026-10-12",
+        "categoria": "Tecnologia",
+        "cantidad": "2",
+        "precio_unitario": "250",
+        "costo_unitario": "200"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 12,
+      "valores_originales": {
+        "id": "V012",
+        "fecha": "2026-10-12",
+        "categoria": "Hogar",
+        "cantidad": "3",
+        "precio_unitario": "120",
+        "costo_unitario": "96"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 13,
+      "valores_originales": {
+        "id": "V013",
+        "fecha": "2026-10-13",
+        "categoria": "Oficina",
+        "cantidad": "12",
+        "precio_unitario": "15",
+        "costo_unitario": "9"
+      },
+      "decision": "ACEPTAR",
+      "motivos": [
+        "Cumple todas las validaciones del diccionario v1"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 14,
+      "valores_originales": {
+        "id": "V005",
+        "fecha": "2026-10-07",
+        "categoria": "Tecnologia",
+        "cantidad": "3",
+        "precio_unitario": "150",
+        "costo_unitario": "120"
+      },
+      "decision": "EXCLUIR",
+      "motivos": [
+        "Duplicado exacto: conservar primera aparición (regla 2)"
+      ],
+      "referencia_duplicado": 5
+    },
+    {
+      "registro_origen": 15,
+      "valores_originales": {
+        "id": "V014",
+        "fecha": "2026-10-13",
+        "categoria": "Hogar",
+        "cantidad": "-2",
+        "precio_unitario": "75",
+        "costo_unitario": "50"
+      },
+      "decision": "EXCLUIR",
+      "motivos": [
+        "cantidad: debe ser entero positivo (regla 3)"
+      ],
+      "referencia_duplicado": null
+    },
+    {
+      "registro_origen": 16,
+      "valores_originales": {
+        "id": "V015",
+        "fecha": "2026-10-14",
+        "categoria": "Oficina",
+        "cantidad": "7",
+        "precio_unitario": "",
+        "costo_unitario": "11"
+      },
+      "decision": "EXCLUIR",
+      "motivos": [
+        "precio_unitario: vacío o no numérico (regla 3)"
+      ],
+      "referencia_duplicado": null
+    }
+  ]
+}
