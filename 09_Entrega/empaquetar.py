@@ -19,7 +19,7 @@ for nombre in bitacoras:
 
 Identificación completada: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales.
 
-Cada integrante debe completar su reflexión de 150–200 palabras y aporte concreto en 08_Informe/02_Anexos_y_reflexiones. Explicar una decisión, una comprobación efectivamente realizada y un límite reconocido. El borrador general sirve como guía; no es una declaración personal de ninguno de los integrantes.
+Alexis Gonzalez ya completó su reflexión. Alexia Orce, Georgina Sicco y Luis Morales deben completar sus reflexiones de 150–200 palabras y aportes concretos en 08_Informe/02_Anexos_y_reflexiones. Explicar una decisión, una comprobación efectivamente realizada y un límite reconocido. El borrador general sirve como guía; no es una declaración personal de ninguno de los integrantes.
 
 Registrar las revisiones humanas efectivamente realizadas en participacion_y_uso_IA.md. Luego actualizar el PDF y el ZIP desde el proyecto de trabajo. No se inventaron aportes personales ni revisiones independientes.
 ''')
@@ -42,7 +42,7 @@ for p in sorted(D.rglob('*'),key=lambda x:len(x.parts),reverse=True):
  if p.is_dir() and not any(p.iterdir()):p.rmdir()
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 files=sorted(p for p in D.rglob('*') if p.is_file())
-m={'equipo':'Grupo F','integrantes':['Alexis Gonzalez','Alexia Orce','Georgina Sicco','Luis Morales'],'fecha_UTC':datetime.now(timezone.utc).isoformat(),'estado':'Entrega técnica; reflexiones y aportes personales pendientes','inventario':[{'ruta':str(p.relative_to(D)),'bytes':p.stat().st_size,'sha256':sha(p)} for p in files]}
+m={'equipo':'Grupo F','integrantes':['Alexis Gonzalez','Alexia Orce','Georgina Sicco','Luis Morales'],'fecha_UTC':datetime.now(timezone.utc).isoformat(),'estado':'Alexis completado; reflexiones y aportes de Alexia, Georgina y Luis pendientes','inventario':[{'ruta':str(p.relative_to(D)),'bytes':p.stat().st_size,'sha256':sha(p)} for p in files]}
 (D/'MANIFIESTO_ENTREGA.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n');files.append(D/'MANIFIESTO_ENTREGA.json')
 (D/'SHA256SUMS.txt').write_text(''.join(f'{sha(p)}  {p.relative_to(D)}\n' for p in sorted(files)))
 z=R/'09_Entrega/02_ZIP'/f'{NAME}.zip';z.parent.mkdir(parents=True,exist_ok=True);zt=z.with_suffix('.nuevo.zip')

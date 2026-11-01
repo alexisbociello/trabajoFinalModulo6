@@ -22,7 +22,7 @@ Política v1: SIN ALERTA | Política v2: ALERTA
 
 ### Estado del documento
 
-Producto técnico ejecutado y documentado. Reflexiones personales y aportes individuales pendientes de completar. La revisión del agente no se presenta como revisión humana. El informe tiene seis páginas de contenido, más portada y anexos.
+Producto técnico ejecutado y documentado. Reflexión y revisión de Alexis Gonzalez incorporadas. Pendientes: reflexiones y aportes de Alexia Orce, Georgina Sicco y Luis Morales. El informe tiene seis páginas de contenido, más portada y anexos.
 
 
 ## 1. Objetivo, alcance y síntesis
@@ -47,7 +47,7 @@ Para 2026-10-18 se aplica v1, con umbral 25%: SIN ALERTA. Para 2026-10-19 se apl
 
 ### Herramientas y modalidad
 
-Codex realizó las tareas técnicas con herramientas locales. Python 3.9.6 ejecutó el pipeline y verificadores; Docker ejecutó el mismo script con Python 3.12.16. Las evidencias distinguen ejecución del agente de revisión humana, que no está registrada. No se requirieron servicios de pago, entrenamiento predictivo ni aplicación web.
+Codex realizó las tareas técnicas con herramientas locales. Python 3.9.6 ejecutó el pipeline y verificadores; Docker ejecutó el mismo script con Python 3.12.16. Las evidencias distinguen ejecución del agente de revisión humana: Alexis Gonzalez comprobó manualmente los resultados de todas las pruebas de la matriz; P6 es el ejemplo desarrollado en su reflexión. No se requirieron servicios de pago, entrenamiento predictivo ni aplicación web.
 
 
 ## 2. Calidad y conservación del original
@@ -122,7 +122,7 @@ Esquema: la copia cambia precio_unitario por precio; se detiene sin renombrar. I
 
 ### Evidencia y alcance de la aceptación
 
-La matriz conserva criterio, observado, modalidad, evidencia y estado de revisión humana. Cada prueba registra comando, stdout, stderr y retorno. Se comprobó la interfaz sin --salida. Los 11 controles exigidos resultaron satisfactorios. No se detectó un fallo funcional que exigiera cambiar código; no se inventó una corrección. Esto es verificación del agente con herramientas, no prueba de revisión independiente del estudiante.
+La matriz conserva criterio, observado, modalidad, evidencia y estado de revisión humana. Cada prueba registra comando, stdout, stderr y retorno. Se comprobó la interfaz sin --salida. Los 11 controles exigidos resultaron satisfactorios. No se detectó un fallo funcional que exigiera cambiar código; no se inventó una corrección. Las ejecuciones técnicas corresponden al agente. Alexis Gonzalez revisó el CSV y contrastó los casos con el diccionario y el contrato. Comprobó los conteos, las exclusiones y el duplicado; recalculó importes y porcentajes con calculadora y los comparó con las salidas. También revisó políticas, fronteras, el caso sin válidas y los mensajes de las tres detenciones. P6 es el ejemplo desarrollado en su reflexión.
 
 ### Ubicación
 
@@ -176,7 +176,7 @@ El responsable de fuente aclara datos; el del contrato autoriza esquema; el de p
 
 ### Cierre y limitaciones
 
-El paquete integra E1-E5 mediante índices y un README de reproducción. Se conserva la trazabilidad de operaciones efectivamente ejecutadas por Codex. Falta adaptar las reflexiones individuales con experiencia real; no se atribuyen al usuario comprobaciones no registradas. El resultado es un flujo reproducible e informativo; no autoriza acciones comerciales ni conclusiones sobre clientes o causas ausentes.
+El paquete integra E1-E5 mediante índices y un README de reproducción. Se conserva la trazabilidad de operaciones efectivamente ejecutadas por Codex. Faltan las reflexiones de Alexia Orce, Georgina Sicco y Luis Morales; no se atribuyen al usuario comprobaciones no registradas. El resultado es un flujo reproducible e informativo; no autoriza acciones comerciales ni conclusiones sobre clientes o causas ausentes.
 
 
 ## Anexo A. Mapa de evidencias
@@ -201,30 +201,30 @@ E5: 04_Trabajo/07_Supervision_y_recuperacion y 05_Ejecuciones/04_Recuperacion.
 
 ### Aportes observados
 
-Usuario: aportó recursos y dirigió el alcance mediante pedidos sucesivos. Codex: organizó, generó, ejecutó, verificó y documentó las tareas técnicas. Herramientas: terminal, Python estándar, Docker Desktop y Swift/CoreText/PDFKit. No se registra revisión humana independiente; el mismo agente produjo verificaciones y respuestas.
+Usuario: aportó recursos y dirigió el alcance mediante pedidos sucesivos. Codex: organizó, generó, ejecutó, verificó y documentó las tareas técnicas. Herramientas: terminal, Python estándar, Docker Desktop y Swift/CoreText/PDFKit. Alexis Gonzalez revisó manualmente los resultados de todas las pruebas de la matriz y destacó V001/V002 en su reflexión. Codex produjo las ejecuciones técnicas y respuestas; no se atribuyen revisiones a los otros integrantes.
 
 ### Integrantes y atribución de aportes
 
-Equipo: Grupo F. Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales. Las funciones responsables se describen en el plan; no se inventan nombres, firmas, aportes personales ni aprobaciones. La reflexión del anexo siguiente es un borrador para adaptar y no evidencia participación individual por sí sola.
+Equipo: Grupo F. Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales. Las funciones responsables se describen en el plan; no se inventan nombres, firmas, aportes personales ni aprobaciones. La reflexión del anexo siguiente fue incorporada por Alexis Gonzalez. Las otras tres reflexiones siguen pendientes.
 
 
-## Anexo B. Reflexión individual
+## Anexo B. Reflexión de Alexis Gonzalez
 
-Borrador para adaptar | 182 palabras
+Texto incorporado por el usuario | 174 palabras
 
-### Aviso de autoría
+### Aporte y revisión declarados
 
-Texto de ejemplo preparado por Codex. No es una declaración personal del estudiante. Completar nombre y adaptar a las comprobaciones y decisiones efectivamente realizadas antes de presentar.
+Revisión manual de todas las pruebas: contraste del CSV con las reglas, recálculo de importes y porcentajes y revisión de las salidas y detenciones. P6, con V001/V002, es el ejemplo destacado. Las ejecuciones técnicas corresponden a Codex.
 
-### Texto propuesto
+### Reflexión individual
 
-Una decisión central de este trabajo es conservar la primera aparición de una venta duplicada y excluir las siguientes cuando sus seis campos coinciden. Así se evita duplicar los importes sin borrar la evidencia del registro excluido. En cambio, si un mismo identificador tiene contenidos distintos, el flujo debe detenerse: elegir una versión requeriría información que el caso no proporciona.
+Una decisión importante del trabajo fue conservar la primera aparición de V005 y excluir su repetición exacta. Esta regla evita contabilizar dos veces una misma venta y mantiene la trazabilidad, porque el registro excluido permanece identificado en el reporte de calidad. Entendí que un duplicado exacto requiere una respuesta diferente de un identificador repetido con datos distintos, que obliga a detener el proceso.
 
-La comprobación más útil para revisar es la conciliación de dieciséis registros leídos, trece válidos y tres excluidos. También resulta importante reconstruir el margen de V001 y V002: sumar primero ventas y márgenes permite obtener el porcentaje correcto y evita el error de promediar porcentajes individuales.
+Para comprobar los resultados, revisé los cálculos de V001 y V002 con una calculadora. Sus ventas suman 1.450 UM y sus márgenes, 460 UM. El porcentaje conjunto es aproximadamente 31,72%. Esta comprobación me permitió entender por qué no corresponde promediar directamente los porcentajes de ambas ventas.
 
-Un límite relevante es que la inteligencia artificial puede generar código, respuestas y comprobaciones, pero sus afirmaciones necesitan archivos y resultados observables. En esta ejecución, Codex realizó las tareas técnicas; una revisión producida por el mismo agente no equivale a una comprobación humana independiente. Para completar esta reflexión personal corresponde explicar qué parte revisé efectivamente, qué contraste realicé por mi cuenta y qué decisión puedo sostener con evidencia, sin atribuirme ejecuciones o verificaciones que no hice.
+También identifiqué un límite del uso de inteligencia artificial: generar código y obtener respuestas coherentes no garantiza que sean correctos. Es necesario contrastarlos con las reglas y las evidencias. Codex realizó la generación y ejecución técnica; mi aporte consistió en revisar esos resultados. La responsabilidad de aceptar una conclusión sigue siendo humana, especialmente cuando faltan datos o existen conflictos que el agente no puede resolver.
 
-### Pendiente para cierre personal
+### Otros integrantes
 
-Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales. Cada integrante debe adaptar su propia reflexión. Decisión revisada personalmente: pendiente. Evidencia consultada y comprobación propia: pendiente. El archivo editable está en 08_Informe/02_Anexos_y_reflexiones/reflexion_individual_BORRADOR.md.
+Continúan pendientes las reflexiones y aportes de Alexia Orce, Georgina Sicco y Luis Morales.
 

@@ -1,51 +1,11 @@
 {
-  "zip": "09_Entrega/02_ZIP/Modulo6_Equipo_GrupoF.zip",
-  "archivos": 167,
-  "bytes": 245860,
-  "sha256_zip": "ef11ed8f19c2c736eefc341ebe35d88a8c75c72e17147179dbe915025fe7ef25",
+  "zip": "Modulo6_Equipo_GrupoF.zip",
+  "sha256_zip": "d141da33b489a48055120ab43c526fcf1e835464bd0b0bacdae5d65997307543",
   "crc_y_sha256_validos": true,
-  "enlaces_verificados": 49,
-  "pruebas_desde_zip": {
-    "estado": "11 controles aprobados en copia nueva",
-    "directorio": "/var/folders/52/8xkzd7wx7pq_c8dbdthg37fc0000gn/T/horizonte_reproduccion_t2gcs27a",
-    "resultado": {
-      "pruebas": 11,
-      "resultado": "11 controles aprobados; interfaz sin salida comprobada",
-      "original_intacto": true,
-      "total_v1": {
-        "registros": 13,
-        "unidades": "91",
-        "ventas": "5720",
-        "costos": "4210",
-        "margen": "1510",
-        "estado": "SIN ALERTA",
-        "margen_pct": "26.398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601",
-        "margen_pct_mostrado": "26.40"
-      },
-      "total_v2": {
-        "registros": 13,
-        "unidades": "91",
-        "ventas": "5720",
-        "costos": "4210",
-        "margen": "1510",
-        "estado": "ALERTA",
-        "margen_pct": "26.398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601",
-        "margen_pct_mostrado": "26.40"
-      }
-    }
-  },
-  "recuperacion_desde_zip": {
-    "auditoria": "05_Ejecuciones/04_Recuperacion/20261101T223254018231Z/auditoria_operacion.json",
-    "recuperaciones": 3,
-    "evidencias_anteriores_verificadas": 46,
-    "original_intacto": true,
-    "resultado": "Tres ensayos recuperados; salidas idénticas a v2; P8 confirmado"
-  },
-  "eliminados": [
-    "09_Entrega/01_Paquete_final",
-    "13_Archivo_historico",
-    "tmp/pdfs/revision_informe",
-    "09_Entrega/validacion_paquete_GrupoF.json"
-  ],
-  "criterio": "Solo productos y evidencia exigidos; material de clase permanece en proyecto, excluido del ZIP."
+  "revision_humana": "Descripciones específicas por prueba, Alexis Gonzalez; informe y participación actualizados",
+  "pendientes": [
+    "Reflexión y aporte de Alexia Orce",
+    "Reflexión y aporte de Georgina Sicco",
+    "Reflexión y aporte de Luis Morales"
+  ]
 }

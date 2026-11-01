@@ -13,7 +13,7 @@ Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales.
 
 ## Resultado
 
-16 leídas = 13 válidas + 3 excluidas. 91 unidades. Ventas: 5720 UM; costos: 4210 UM; margen: 1510 UM; margen porcentual mostrado: 26.40%. Política v1, 2026-10-18: SIN ALERTA. Política v2, 2026-10-19: ALERTA. Las fechas son simuladas. Las ejecuciones y verificaciones técnicas fueron realizadas por Codex con herramientas; no se atribuye revisión humana no documentada.
+16 leídas = 13 válidas + 3 excluidas. 91 unidades. Ventas: 5720 UM; costos: 4210 UM; margen: 1510 UM; margen porcentual mostrado: 26.40%. Política v1, 2026-10-18: SIN ALERTA. Política v2, 2026-10-19: ALERTA. Las fechas son simuladas. Las ejecuciones y verificaciones técnicas fueron realizadas por Codex con herramientas; Alexis Gonzalez comprobó manualmente los resultados de todas las pruebas de la matriz; P6 es el ejemplo desarrollado en su reflexión.
 
 ## Reproducción
 
@@ -58,6 +58,6 @@ El inventario está en MANIFIESTO_ENTREGA.json. El original se conserva sin edit
 
 ## Pendiente personal explícito
 
-Las cuatro reflexiones y aportes individuales todavía deben completarse. Ver [Pendientes](PENDIENTES_PERSONALES.md) y [participación y uso de IA](08_Informe/02_Anexos_y_reflexiones/participacion_y_uso_IA.md). No se presentan los borradores como experiencias personales ya realizadas.
+La reflexión de Alexis Gonzalez está incorporada. Faltan las reflexiones y aportes de Alexia Orce, Georgina Sicco y Luis Morales. Ver [Pendientes](PENDIENTES_PERSONALES.md) y [participación y uso de IA](08_Informe/02_Anexos_y_reflexiones/participacion_y_uso_IA.md). No se presentan los borradores como experiencias personales ya realizadas.
 
 Se conservaron salidas, errores, comandos y versiones necesarios para evaluar. Se excluyeron libros, diapositivas, RedNova, plantillas vacías, temporales y versiones obsoletas. Las copias de código/datos dentro del paquete Docker son necesarias para reproducirlo.
