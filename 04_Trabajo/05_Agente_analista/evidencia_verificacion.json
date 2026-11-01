@@ -1,0 +1,110 @@
+{
+  "fecha_real_UTC": "2026-11-01T22:07:44.132663+00:00",
+  "ejecutor": "Codex mediante terminal",
+  "python": "3.9.6",
+  "comando": "python3 04_Trabajo/05_Agente_analista/verificar_fuentes.py",
+  "metodo": "Fraction, recalculo desde cantidad/precio/costo de ventas_validas; contraste con resumen y calidad",
+  "original_intacto": true,
+  "columnas_disponibles": [
+    "id",
+    "fecha",
+    "categoria",
+    "cantidad",
+    "precio_unitario",
+    "costo_unitario"
+  ],
+  "fuentes_sha256": {
+    "05_Ejecuciones/01_Python/2026-10-18_v1/ejecucion_01/ventas_validas.csv": "f52f5d3a6b9ff8939beb86a7890205aee59001a0fdef7ef1b696ddd5fc48cc29",
+    "05_Ejecuciones/01_Python/2026-10-18_v1/ejecucion_01/resumen.json": "624e6caf506ac7de19e44b6432e6e0ebe7287c2e75eb8c1a6d5582e7a4cfa8d8",
+    "05_Ejecuciones/01_Python/2026-10-18_v1/ejecucion_01/reporte_calidad.json": "9f9881c3e5f8878d9e164521b91c432af000f3cad97596782ec12419c8628d63",
+    "05_Ejecuciones/01_Python/2026-10-19_v2/ejecucion_01/ventas_validas.csv": "f52f5d3a6b9ff8939beb86a7890205aee59001a0fdef7ef1b696ddd5fc48cc29",
+    "05_Ejecuciones/01_Python/2026-10-19_v2/ejecucion_01/resumen.json": "16e9f13a8e8fe9052d8e8b9f57a6b09b4eb9cdde330f8488ece19589ecf35ad5",
+    "05_Ejecuciones/01_Python/2026-10-19_v2/ejecucion_01/reporte_calidad.json": "9f9881c3e5f8878d9e164521b91c432af000f3cad97596782ec12419c8628d63",
+    "02_Insumos/02_Politicas/politica_margen_v1.md": "60bba214d2147d9247a150c49efe4e9446017be91a25727d620cbe448357f6dd",
+    "02_Insumos/02_Politicas/politica_margen_v2.md": "aa7edfc1be1a800ad6e5a190d67033cd6480f2be6109c946fd598d2feb315c1b"
+  },
+  "resultados": {
+    "v1": {
+      "fecha_ejecucion": "2026-10-18",
+      "politica": {
+        "version": "v1",
+        "desde": "2026-10-05",
+        "hasta": "2026-10-18",
+        "umbral_pct": "25",
+        "operador": "<",
+        "archivo": "politica_margen_v1.md"
+      },
+      "agregados_verificados": {
+        "Oficina": {
+          "ventas": "1210",
+          "costos": "772",
+          "margen": "438",
+          "porcentaje_fraccion_exacta": "4380/121",
+          "estado": "SIN ALERTA"
+        },
+        "Tecnologia": {
+          "ventas": "3050",
+          "costos": "2320",
+          "margen": "730",
+          "porcentaje_fraccion_exacta": "1460/61",
+          "estado": "ALERTA"
+        },
+        "Hogar": {
+          "ventas": "1460",
+          "costos": "1118",
+          "margen": "342",
+          "porcentaje_fraccion_exacta": "1710/73",
+          "estado": "ALERTA"
+        },
+        "TOTAL": {
+          "ventas": "5720",
+          "costos": "4210",
+          "margen": "1510",
+          "porcentaje_fraccion_exacta": "3775/143",
+          "estado": "SIN ALERTA"
+        }
+      }
+    },
+    "v2": {
+      "fecha_ejecucion": "2026-10-19",
+      "politica": {
+        "version": "v2",
+        "desde": "2026-10-19",
+        "hasta": "abierta",
+        "umbral_pct": "30",
+        "operador": "<",
+        "archivo": "politica_margen_v2.md"
+      },
+      "agregados_verificados": {
+        "Oficina": {
+          "ventas": "1210",
+          "costos": "772",
+          "margen": "438",
+          "porcentaje_fraccion_exacta": "4380/121",
+          "estado": "SIN ALERTA"
+        },
+        "Tecnologia": {
+          "ventas": "3050",
+          "costos": "2320",
+          "margen": "730",
+          "porcentaje_fraccion_exacta": "1460/61",
+          "estado": "ALERTA"
+        },
+        "Hogar": {
+          "ventas": "1460",
+          "costos": "1118",
+          "margen": "342",
+          "porcentaje_fraccion_exacta": "1710/73",
+          "estado": "ALERTA"
+        },
+        "TOTAL": {
+          "ventas": "5720",
+          "costos": "4210",
+          "margen": "1510",
+          "porcentaje_fraccion_exacta": "3775/143",
+          "estado": "ALERTA"
+        }
+      }
+    }
+  }
+}

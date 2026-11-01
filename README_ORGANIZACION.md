@@ -60,3 +60,7 @@ chmod 444 01_Original_ventas_PROTEGIDO/ventas_original.csv
 chmod 555 01_Original_ventas_PROTEGIDO
 shasum -a 256 -c 07_Evidencias/01_Integridad_original/ventas_original.sha256
 ```
+
+## Consulta por etapas
+
+Abrir [Entregables E1–E5](12_Entregables_por_etapa/README.md) para observar cada etapa por separado, con estado y enlaces a sus productos.
