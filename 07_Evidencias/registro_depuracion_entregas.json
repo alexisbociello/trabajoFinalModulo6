@@ -1,0 +1,38 @@
+{
+  "motivo": "Retirar versiones obsoletas de las carpetas activas sin destruir evidencia",
+  "movimientos": [
+    {
+      "origen": "09_Entrega/01_Paquete_final/Modulo6_Equipo_Individual",
+      "destino": "13_Archivo_historico/Entregas_anteriores/Paquetes/Modulo6_Equipo_Individual"
+    },
+    {
+      "origen": "09_Entrega/02_ZIP/Modulo6_Equipo_Individual.zip",
+      "destino": "13_Archivo_historico/Entregas_anteriores/ZIP/Modulo6_Equipo_Individual.zip"
+    },
+    {
+      "origen": "08_Informe/03_PDF_final/Informe_Final_Modulo6_Individual.pdf",
+      "destino": "13_Archivo_historico/Entregas_anteriores/PDF/Informe_Final_Modulo6_Individual.pdf"
+    },
+    {
+      "origen": "09_Entrega/01_Paquete_final/Modulo6_Equipo_Gonzalez_Orce_Sicco_Morales",
+      "destino": "13_Archivo_historico/Entregas_anteriores/Paquetes/Modulo6_Equipo_Gonzalez_Orce_Sicco_Morales"
+    },
+    {
+      "origen": "09_Entrega/02_ZIP/Modulo6_Equipo_Gonzalez_Orce_Sicco_Morales.zip",
+      "destino": "13_Archivo_historico/Entregas_anteriores/ZIP/Modulo6_Equipo_Gonzalez_Orce_Sicco_Morales.zip"
+    },
+    {
+      "origen": "08_Informe/03_PDF_final/Informe_Final_Modulo6_Gonzalez_Orce_Sicco_Morales.pdf",
+      "destino": "13_Archivo_historico/Entregas_anteriores/PDF/Informe_Final_Modulo6_Gonzalez_Orce_Sicco_Morales.pdf"
+    },
+    {
+      "origen": "09_Entrega/validacion_paquete.json",
+      "destino": "13_Archivo_historico/Entregas_anteriores/Validaciones/validacion_paquete.json"
+    },
+    {
+      "origen": "09_Entrega/validacion_paquete_equipo.json",
+      "destino": "13_Archivo_historico/Entregas_anteriores/Validaciones/validacion_paquete_equipo.json"
+    }
+  ],
+  "entrega_actual": "09_Entrega/02_ZIP/Modulo6_Equipo_GrupoF.zip"
+}

@@ -1,32 +1,56 @@
-"""Crea paquete y ZIP con inventario. No publica ni modifica el original."""
+"""Empaqueta solo productos y evidencias evaluables de Horizonte."""
 from pathlib import Path
 from datetime import datetime,timezone
-import shutil,hashlib,json,zipfile,stat,os
+import tempfile,shutil,json,hashlib,zipfile,os
 R=Path(__file__).resolve().parents[1]
-NOMBRE='Modulo6_Equipo_GrupoF'
-D=R/'09_Entrega/01_Paquete_final'/NOMBRE
-Z=R/'09_Entrega/02_ZIP'/f'{NOMBRE}.zip'
-if D.exists() or Z.exists():raise SystemExit('Ya existe el paquete: preservar el anterior y usar un nombre nuevo.')
-D.mkdir(parents=True)
-excluir={'.git','.DS_Store','__pycache__','tmp','09_Entrega','06_Recursos_del_caso'}
-for p in sorted(R.iterdir()):
- if p.name in excluir:continue
- if p.is_dir():
-  # copytree conserva permisos; evitar el modo 0555 de la carpeta canónica hasta terminar.
-  shutil.copytree(p,D/p.name,ignore=shutil.ignore_patterns('.DS_Store','__pycache__','*.pyc','Informe_Final_Modulo6_Individual.pdf','Informe_Final_Modulo6_Gonzalez_Orce_Sicco_Morales.pdf'))
- else:shutil.copy2(p,D/p.name)
-# Las herramientas de empaquetado quedan disponibles en el paquete sin recursión de resultados.
-(D/'09_Entrega').mkdir()
-shutil.copy2(Path(__file__),D/'09_Entrega/empaquetar.py')
-(D/'09_Entrega/01_Paquete_final').mkdir();(D/'09_Entrega/02_ZIP').mkdir()
-archivos=sorted(p for p in D.rglob('*') if p.is_file())
+NAME='Modulo6_Equipo_GrupoF'
+TMP=Path(tempfile.mkdtemp(prefix='horizonte_entrega_docente_'));D=TMP/NAME;D.mkdir()
+# Mantener rutas originales para reproducibilidad y referencias de evidencias.
+seleccion=['01_Original_ventas_PROTEGIDO','02_Insumos/01_Reglas_y_contrato','02_Insumos/02_Politicas','02_Insumos/05_Pruebas_provistas/documento_no_confiable_prueba.md','04_Trabajo','05_Ejecuciones','06_Pruebas','07_Evidencias/01_Integridad_original','07_Evidencias/03_Consola_y_versiones','07_Evidencias/04_Calculos_independientes','08_Informe/03_PDF_final/Informe_Final_Modulo6_GrupoF.pdf','08_Informe/01_Borradores/informe_final_editable.md','08_Informe/02_Anexos_y_reflexiones','12_Entregables_por_etapa','PENDIENTES_PERSONALES.md']
+for rel in seleccion:
+ p=R/rel;q=D/rel;q.parent.mkdir(parents=True,exist_ok=True)
+ if p.is_dir():shutil.copytree(p,q,ignore=shutil.ignore_patterns('.DS_Store','.gitkeep','__pycache__','*.pyc'))
+ else:shutil.copy2(p,q)
+bitacoras=['diagnostico_v1.md','pipeline_v1.md','analista_v1_v2.md','docker_v1.md','supervision_y_recuperacion_v1.md']
+for nombre in bitacoras:
+ q=D/'07_Evidencias/02_Bitacora'/nombre;q.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(R/'07_Evidencias/02_Bitacora'/nombre,q)
+(D/'README.md').write_text((R/'09_Entrega/README_PARA_DOCENTE.md').read_text())
+(D/'PENDIENTES_PERSONALES.md').write_text('''# Pendientes del Grupo F
+
+Identificación completada: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales.
+
+Cada integrante debe completar su reflexión de 150–200 palabras y aporte concreto en 08_Informe/02_Anexos_y_reflexiones. Explicar una decisión, una comprobación efectivamente realizada y un límite reconocido. El borrador general sirve como guía; no es una declaración personal de ninguno de los integrantes.
+
+Registrar las revisiones humanas efectivamente realizadas en participacion_y_uso_IA.md. Luego actualizar el PDF y el ZIP desde el proyecto de trabajo. No se inventaron aportes personales ni revisiones independientes.
+''')
+# Guía de organización reducida a la selección real; no incluir insumos de clase.
+(D/'README_ORGANIZACION.md').write_text('''# Organización de la entrega
+
+01_Original_ventas_PROTEGIDO: fuente y huella de integridad en 07_Evidencias.
+02_Insumos: diccionario, contrato, políticas y documento de prueba no confiable.
+04_Trabajo: diagnóstico, pipeline, prompts, analista v1/v2, paquete Docker y plan operativo.
+05_Ejecuciones: productos Python/Docker, comparaciones y recuperaciones.
+06_Pruebas: entradas, resultados, comandos, matriz y verificadores.
+07_Evidencias: bitácoras técnicas, integridad, consola, versiones y cálculo independiente.
+08_Informe: PDF, texto editable, participación y reflexiones pendientes.
+12_Entregables_por_etapa: índices navegables E1–E5.
+
+El material de clase, paquetes RedNova, plantillas vacías y versiones sustituidas se excluyeron de esta entrega. Las carpetas numéricas conservan las rutas del proyecto para que scripts y evidencias funcionen.
+''')
+# Retirar directorios vacíos que no representan un producto ni evidencia.
+for p in sorted(D.rglob('*'),key=lambda x:len(x.parts),reverse=True):
+ if p.is_dir() and not any(p.iterdir()):p.rmdir()
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
-man={'fecha_UTC':datetime.now(timezone.utc).isoformat(),'equipo':'Grupo F','integrantes':['Alexis Gonzalez','Alexia Orce','Georgina Sicco','Luis Morales'],'estado':'Paquete técnico generado; reflexiones y aportes individuales pendientes','nombre_zip':Z.name,'inventario':[{'ruta':str(p.relative_to(D)),'bytes':p.stat().st_size,'sha256':sha(p)} for p in archivos],'nota':'El inventario no se incluye a sí mismo. SHA256SUMS.txt incluye también este manifiesto; ninguno incluye el checksum para evitar circularidad.'}
-(D/'MANIFIESTO_ENTREGA.json').write_text(json.dumps(man,ensure_ascii=False,indent=2)+'\n')
-archivos.append(D/'MANIFIESTO_ENTREGA.json')
-(D/'SHA256SUMS.txt').write_text(''.join(f'{sha(p)}  {p.relative_to(D)}\n' for p in sorted(archivos)))
-Z.parent.mkdir(parents=True,exist_ok=True)
-with zipfile.ZipFile(Z,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
- for p in [D]+sorted(D.rglob('*')):
-  z.write(p,arcname=str(p.relative_to(D.parent)))
-print(json.dumps({'paquete':str(D.relative_to(R)),'zip':str(Z.relative_to(R)),'archivos_inventariados':len(man['inventario']),'bytes_zip':Z.stat().st_size,'sha256_zip':sha(Z)},ensure_ascii=False,indent=2))
+files=sorted(p for p in D.rglob('*') if p.is_file())
+m={'equipo':'Grupo F','integrantes':['Alexis Gonzalez','Alexia Orce','Georgina Sicco','Luis Morales'],'fecha_UTC':datetime.now(timezone.utc).isoformat(),'estado':'Entrega técnica; reflexiones y aportes personales pendientes','inventario':[{'ruta':str(p.relative_to(D)),'bytes':p.stat().st_size,'sha256':sha(p)} for p in files]}
+(D/'MANIFIESTO_ENTREGA.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n');files.append(D/'MANIFIESTO_ENTREGA.json')
+(D/'SHA256SUMS.txt').write_text(''.join(f'{sha(p)}  {p.relative_to(D)}\n' for p in sorted(files)))
+z=R/'09_Entrega/02_ZIP'/f'{NAME}.zip';z.parent.mkdir(parents=True,exist_ok=True);zt=z.with_suffix('.nuevo.zip')
+with zipfile.ZipFile(zt,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as f:
+ for p in [D]+sorted(D.rglob('*')):f.write(p,str(p.relative_to(D.parent)))
+with zipfile.ZipFile(zt) as f:
+ assert f.testzip() is None
+ for line in f.read(NAME+'/SHA256SUMS.txt').decode().splitlines():
+  h,n=line.split('  ',1);assert hashlib.sha256(f.read(NAME+'/'+n)).hexdigest()==h
+zt.replace(z)
+print(json.dumps({'zip':str(z.relative_to(R)),'archivos':len(m['inventario']),'bytes':z.stat().st_size,'staging_temporal':str(D),'sha256':sha(z)},ensure_ascii=False,indent=2))

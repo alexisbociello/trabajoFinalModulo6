@@ -1,5 +1,0 @@
-pedido_id,linea_id,sucursal_id,producto_id,cantidad_pedida,cantidad_recibida,estado,fecha_arribo,arribo_confirmado,fecha_ingesta
-P001,1,S03,A100,50,10,confirmado,2025-07-02,true,2025-06-30T23:10:00Z
-P002,1,S03,B200,10,0,confirmado,2025-07-04,true,2025-06-30T23:10:00Z
-P003,1,S03,C300,5,0,cancelado,2025-07-03,false,2025-06-30T23:10:00Z
-P004,1,S03,A100,5,0,confirmado,2025-06-29,true,2025-06-30T23:10:00Z

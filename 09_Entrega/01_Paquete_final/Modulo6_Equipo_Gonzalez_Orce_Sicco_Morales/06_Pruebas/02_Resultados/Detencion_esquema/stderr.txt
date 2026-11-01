@@ -1,1 +1,0 @@
-DETENCIÓN: Esquema incompatible: revisar encabezado y contrato; no renombrar automáticamente.
