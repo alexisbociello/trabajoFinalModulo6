@@ -7,6 +7,7 @@ Equipo: Grupo F. Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Lui
 - Usuario: aportó la consigna y los recursos; solicitó organización, diagnóstico, pipeline, analista, Docker, operación y cierre. Indicó que no requiere defensa ni confirmaciones de comprensión.
 - Codex: ejecutó organización, comprobación SHA-256, generación de código, diagnóstico, pruebas, respuestas del rol analista, Docker real, comparación, ensayos de recuperación y documentación.
 - Alexis Gonzalez: revisión manual de los resultados de todas las pruebas de la matriz. Revisión de respuestas del analista por integrantes: no registrada.
+- Alexia Orce: ejecutó el pipeline con las políticas v1 y v2 y comparó los resultados globales.
 
 ## Herramientas
 Codex y terminal local; Python de biblioteca estándar; Docker Desktop; Swift con PDFKit/CoreText para generar y revisar el PDF. Sin API externa, credenciales, publicaciones ni mensajes a terceros.
@@ -21,4 +22,8 @@ Identidad completada. Cada integrante debe adaptar su reflexión de 150–200 pa
 
 Alexis Gonzalez revisó el CSV y contrastó los casos con el diccionario y el contrato. Comprobó los conteos, las exclusiones y el duplicado; recalculó importes y porcentajes con calculadora y los comparó con las salidas. También revisó políticas, fronteras, el caso sin válidas y los mensajes de las tres detenciones. P6 es el ejemplo desarrollado en su reflexión.
 
-La matriz detalla la comprobación de cada prueba. Codex realizó las ejecuciones técnicas y generó sus comandos y salidas; Alexis efectuó la revisión manual de sus resultados. Continúan pendientes las reflexiones y aportes de los otros tres integrantes.
+La matriz detalla la comprobación de cada prueba. Codex realizó las ejecuciones técnicas y generó sus comandos y salidas; Alexis efectuó la revisión manual de sus resultados.
+
+## Revisión humana - Alexia Orce
+
+Ejecuté el pipeline en Visual Studio Code con el mismo archivo de ventas para las fechas simuladas 2026-10-18 y 2026-10-19. Comparé los totales de ambas salidas y comprobé que el margen se mantuvo en 26,40 %. Con v1 quedó «SIN ALERTA» porque superaba el umbral del 25 %. Con v2 quedó en «ALERTA» porque estaba por debajo del 30 %. Usé Codex como guía para preparar los comandos e interpretar los resultados. Mi revisión abarcó la comparación de las dos políticas con los datos del caso.
