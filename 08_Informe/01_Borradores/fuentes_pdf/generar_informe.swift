@@ -56,14 +56,15 @@ let pdf = PDFDocument(url:output)!
 let render = root.appendingPathComponent("tmp/pdfs/revision_informe")
 try FileManager.default.createDirectory(at:render,withIntermediateDirectories:true)
 let thumbW=CGFloat(298),thumbH=CGFloat(421)
-let contact=NSImage(size:NSSize(width:thumbW*3,height:thumbH*3))
-contact.lockFocus();NSColor.white.setFill();NSRect(x:0,y:0,width:thumbW*3,height:thumbH*3).fill()
+let rows = CGFloat((pdf.pageCount + 2) / 3)
+let contact=NSImage(size:NSSize(width:thumbW*3,height:thumbH*rows))
+contact.lockFocus();NSColor.white.setFill();NSRect(x:0,y:0,width:thumbW*3,height:thumbH*rows).fill()
 for i in 0..<pdf.pageCount {
  let page=pdf.page(at:i)!
  let thumb=page.thumbnail(of:NSSize(width:1190,height:1684),for:.mediaBox)
  let data=NSBitmapImageRep(data:thumb.tiffRepresentation!)!.representation(using:.png,properties:[:])!
  try data.write(to:render.appendingPathComponent("pagina_\(i+1).png"))
- thumb.draw(in:NSRect(x:CGFloat(i%3)*thumbW,y:CGFloat(2-i/3)*thumbH,width:thumbW,height:thumbH))
+ thumb.draw(in:NSRect(x:CGFloat(i%3)*thumbW,y:(rows-1-CGFloat(i/3))*thumbH,width:thumbW,height:thumbH))
 }
 contact.unlockFocus()
 let data=NSBitmapImageRep(data:contact.tiffRepresentation!)!.representation(using:.png,properties:[:])!

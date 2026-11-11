@@ -10,7 +10,7 @@
 | 03_Material_de_clase | Libros, clases y paquetes originales de Semana 2 y RedNova. RedNova es referencia de otro caso; no reemplaza el pipeline Horizonte. |
 | 04_Trabajo | Copia de datos, diagnóstico, código, prompts, analista v1/v2, Docker y plan de recuperación. |
 | 05_Ejecuciones | Productos Python y Docker, separados por fecha simulada y política; comparaciones. |
-| 06_Pruebas | Entradas de prueba, resultados P1–P8, tres detenciones y matriz para completar. |
+| 06_Pruebas | Entradas de prueba, resultados P1–P8, tres detenciones y matriz completada. |
 | 07_Evidencias | Integridad, bitácora, consola, versiones, cálculos, revisión humana y aportes. |
 | 08_Informe | Borradores, anexos/reflexiones y PDF final de 4 a 6 páginas sin portada ni anexos. |
 | 09_Entrega | Copia seleccionada de productos finales y ZIP Modulo6_Equipo_Nombre.zip. |
@@ -38,19 +38,13 @@ shasum -a 256 -c 07_Evidencias/01_Integridad_original/ventas_original.sha256
 
 La protección mediante permisos evita cambios accidentales; el propietario puede revertirla. Las copias históricas de Semana 2 se conservan dentro del paquete provisto y no son el original canónico.
 
-## Estado inicial y pendientes
+## Estado final
 
-Esta organización no constituye ejecución del trabajo: las carpetas de resultados están vacías y las plantillas no tienen resultados observados.
-Se copiaron las cuatro entradas de prueba suministradas a `06_Pruebas/01_Entradas`.
-Queda preparar el caso de ID conflictivo y la carpeta de políticas sin cobertura para el control de política faltante.
-No se encontraron libro de Semana 5, clases 9–10 ni entregas propias E1–E5.
-La matriz suministrada debe ampliarse si es necesario para registrar modalidad de ejecución y ambos casos de frontera de P7.
-No sobrescribir ejecuciones: para repeticiones, crear subcarpetas nuevas identificadas (por ejemplo, intento_02).
-No usar el paquete RedNova como evidencia de ejecución de Horizonte.
+E1-E5 ejecutadas y documentadas. Matriz de pruebas completa, cuatro reflexiones integradas y aportes manuales registrados. El informe contiene seis páginas técnicas, portada y anexos. Las repeticiones se realizan en destinos nuevos para conservar evidencias.
 
 ## Repositorio Git
 
-Los archivos `.gitkeep` conservan las carpetas vacías previstas para el trabajo.
+Se retiraron marcadores vacíos y archivos temporales.
 Git no conserva permisos de solo lectura. Después de clonar, restaurar la protección local desde la raíz:
 
 ```sh
@@ -65,4 +59,4 @@ Abrir [Entregables E1–E5](12_Entregables_por_etapa/README.md) para observar ca
 
 ## Depuración de carpetas sin uso
 
-Se eliminaron Defensa, Entregas previas E1–E5 y los marcadores vacíos de resultados, revisión humana y aportes individuales. Las evidencias de pruebas están en sus carpetas específicas y los aportes/reflexiones se completan en 08_Informe/02_Anexos_y_reflexiones. El único paquete para compartir está en 09_Entrega/02_ZIP.
+Se eliminaron Defensa, Entregas previas E1–E5 y los marcadores vacíos de resultados, revisión humana y aportes individuales. Las evidencias de pruebas están en sus carpetas específicas y los aportes/reflexiones están integrados en 08_Informe/02_Anexos_y_reflexiones. El único paquete para compartir está en 09_Entrega/02_ZIP.

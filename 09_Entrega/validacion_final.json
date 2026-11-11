@@ -1,11 +1,11 @@
 {
-  "zip": "Modulo6_Equipo_GrupoF.zip",
-  "sha256_zip": "d141da33b489a48055120ab43c526fcf1e835464bd0b0bacdae5d65997307543",
+  "zip": "09_Entrega/02_ZIP/Modulo6_Equipo_GrupoF.zip",
+  "archivos": 170,
+  "bytes": 471259,
+  "sha256": "a144ce97d3ca96d74c31c786a06d0366a9491aa4276c4ff844a5dd1cc4a036a9",
   "crc_y_sha256_validos": true,
-  "revision_humana": "Descripciones específicas por prueba, Alexis Gonzalez; informe y participación actualizados",
-  "pendientes": [
-    "Reflexión y aporte de Alexia Orce",
-    "Reflexión y aporte de Georgina Sicco",
-    "Reflexión y aporte de Luis Morales"
-  ]
+  "reflexiones_integradas": 4,
+  "controles_aprobados": 11,
+  "original_intacto": true,
+  "pendientes": []
 }

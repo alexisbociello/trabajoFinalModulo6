@@ -1,29 +1,15 @@
 # Participación y uso de IA
 
-## Identificación
-Equipo: Grupo F. Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales.
+Equipo: Grupo F. Cierre de integración: 11 de noviembre de 2026.
 
-## Aportes efectivamente observados
-- Usuario: aportó la consigna y los recursos; solicitó organización, diagnóstico, pipeline, analista, Docker, operación y cierre. Indicó que no requiere defensa ni confirmaciones de comprensión.
-- Codex: ejecutó organización, comprobación SHA-256, generación de código, diagnóstico, pruebas, respuestas del rol analista, Docker real, comparación, ensayos de recuperación y documentación.
-- Alexis Gonzalez: revisión manual de los resultados de todas las pruebas de la matriz. Revisión de respuestas del analista por integrantes: no registrada.
-- Alexia Orce: ejecutó el pipeline con las políticas v1 y v2 y comparó los resultados globales.
+## Trabajo manual y aportes declarados
 
-## Herramientas
-Codex y terminal local; Python de biblioteca estándar; Docker Desktop; Swift con PDFKit/CoreText para generar y revisar el PDF. Sin API externa, credenciales, publicaciones ni mensajes a terceros.
+Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales reflexiona sobre el trabajo E1-E5, la reproducibilidad y los criterios de aceptación; su texto no identifica una ejecución individual específica.
 
-## Ejemplo de aceptación razonada
-El pipeline se aceptó técnicamente por resultados observados de P1–P8 y tres detenciones, contraste con Fraction y coincidencia con Docker, no por la afirmación del generador. El cambio a v2 del analista aclara separación de versiones y lectura del documento no confiable. No se inventó un fallo para justificar correcciones.
+## Valor de las evidencias
 
-## Pendientes personales
-Identidad completada. Cada integrante debe adaptar su reflexión de 150–200 palabras y aportar únicamente revisiones y experiencias reales. El borrador no reemplaza la reflexión propia requerida por la consigna.
+El trabajo manual se refleja en contrastar reglas, recalcular cifras y explicar resultados. Las evidencias conservan comandos, salidas, errores, versiones, huellas y comparaciones: permiten seguir cada conclusión hasta su comprobación. Las ejecuciones históricas de Codex y las revisiones declaradas por integrantes se distinguen sin atribuir autorías no documentadas.
 
-## Revisión humana - Alexis Gonzalez
+## Uso de IA y alcance
 
-Alexis Gonzalez revisó el CSV y contrastó los casos con el diccionario y el contrato. Comprobó los conteos, las exclusiones y el duplicado; recalculó importes y porcentajes con calculadora y los comparó con las salidas. También revisó políticas, fronteras, el caso sin válidas y los mensajes de las tres detenciones. P6 es el ejemplo desarrollado en su reflexión.
-
-La matriz detalla la comprobación de cada prueba. Codex realizó las ejecuciones técnicas y generó sus comandos y salidas; Alexis efectuó la revisión manual de sus resultados.
-
-## Revisión humana - Alexia Orce
-
-Ejecuté el pipeline en Visual Studio Code con el mismo archivo de ventas para las fechas simuladas 2026-10-18 y 2026-10-19. Comparé los totales de ambas salidas y comprobé que el margen se mantuvo en 26,40 %. Con v1 quedó «SIN ALERTA» porque superaba el umbral del 25 %. Con v2 quedó en «ALERTA» porque estaba por debajo del 30 %. Usé Codex como guía para preparar los comandos e interpretar los resultados. Mi revisión abarcó la comparación de las dos políticas con los datos del caso.
+Codex organizó recursos, generó código, ejecutó diagnóstico, pruebas, analista, Docker y recuperaciones, y preparó documentación. Alexia declara usar Codex como guía para comandos, interpretación y redacción. Las cuatro reflexiones se incorporaron; la de Luis fue condensada a 183 palabras conservando sus ideas. Los logs históricos no se modifican ni se presentan como ejecuciones personales del equipo. No se registró revisión humana específica de las respuestas del analista.

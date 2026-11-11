@@ -1,6 +1,5 @@
 # Informe final - Comercial Horizonte
 
-
 ## Comercial Horizonte
 
 Trabajo final integrador | Módulo 6: Ingeniería de Datos y MLOps
@@ -12,7 +11,7 @@ Informe técnico y evidencias de ejecución
 Modalidad: equipo de cuatro integrantes
 Equipo: Grupo F
 Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales
-Fecha del informe: 1 de noviembre de 2026
+Fecha del informe: 11 de noviembre de 2026
 
 ### Resultado principal
 
@@ -22,8 +21,7 @@ Política v1: SIN ALERTA | Política v2: ALERTA
 
 ### Estado del documento
 
-Producto técnico ejecutado y documentado. Reflexión y revisión de Alexis Gonzalez incorporadas. Pendientes: reflexiones y aportes de Alexia Orce, Georgina Sicco y Luis Morales. El informe tiene seis páginas de contenido, más portada y anexos.
-
+Versión final integrada con las cuatro reflexiones individuales y el registro de participación. Seis páginas de contenido técnico, más portada y anexos. Evidencias históricas conservadas y entrega verificada.
 
 ## 1. Objetivo, alcance y síntesis
 
@@ -47,8 +45,7 @@ Para 2026-10-18 se aplica v1, con umbral 25%: SIN ALERTA. Para 2026-10-19 se apl
 
 ### Herramientas y modalidad
 
-Codex realizó las tareas técnicas con herramientas locales. Python 3.9.6 ejecutó el pipeline y verificadores; Docker ejecutó el mismo script con Python 3.12.16. Las evidencias distinguen ejecución del agente de revisión humana: Alexis Gonzalez comprobó manualmente los resultados de todas las pruebas de la matriz; P6 es el ejemplo desarrollado en su reflexión. No se requirieron servicios de pago, entrenamiento predictivo ni aplicación web.
-
+Codex generó y ejecutó la base técnica con Python y Docker. El equipo aportó revisión manual, recálculos y comparación de resultados, detallados por integrante en el anexo A. Las evidencias históricas del agente se conservan separadas de las declaraciones personales. No se requirieron servicios de pago, entrenamiento predictivo ni aplicación web.
 
 ## 2. Calidad y conservación del original
 
@@ -73,7 +70,6 @@ Un registro con valores inválidos se excluye y se documenta. Un encabezado inco
 ### Integridad y evidencia
 
 El original se separó en 01_Original_ventas_PROTEGIDO y se protegió localmente contra escritura accidental. La huella SHA-256 previa y posterior coincide: acbf2326ddddbbad657d3a22b315cae27fa2c2b3d942986cc36427b9c33a866d. Se trabajó con copias idénticas. Git conserva contenido, no permisos de solo lectura; el README indica cómo restaurarlos. El diagnóstico detallado está en E1.
-
 
 ## 3. Pipeline, cálculos y resultados
 
@@ -103,7 +99,6 @@ La fecha de ejecución selecciona una única política, no la fecha de venta. Se
 
 Cada ejecución exitosa guarda ventas_validas.csv, reporte_calidad.json y resumen.json, y emite el paquete por consola. JSON conserva importes como cadenas decimales. Los tres productos se publican juntos en un destino nuevo; el script rechaza sobrescribir una carpeta existente. Las ejecuciones v1/v2 están en 05_Ejecuciones/01_Python.
 
-
 ## 4. Verificación y controles de detención
 
 Informe | página 4 de 6
@@ -127,7 +122,6 @@ La matriz conserva criterio, observado, modalidad, evidencia y estado de revisi�
 ### Ubicación
 
 Matriz: 06_Pruebas/03_Matriz_y_revision/matriz_8_pruebas.csv. Resultados: 06_Pruebas/02_Resultados. Contraste: contraste_independiente.json en esa carpeta. El script verificar_pipeline.py corresponde a la ejecución inicial y utiliza destinos de base; no debe relanzarse sobre los mismos destinos esperando sobrescritura. El README ofrece una repetición completa sobre una copia temporal nueva.
-
 
 ## 5. Analista, versiones y Docker
 
@@ -153,7 +147,6 @@ Docker Desktop local ejecutó ambas fechas. Cliente y motor: 29.5.3 y 29.5.3; co
 
 Se compararon en Docker las dos ejecuciones base; no se afirma repetir P1-P8 completas dentro del contenedor. Los roles v1/v2 fueron aplicados por el mismo agente en el mismo contexto y no garantizan independencia. No hubo API externa, publicación ni envío de mensajes. Las instrucciones, consultas y verificación numérica se encuentran en E3; Docker y comparación, en E4.
 
-
 ## 6. Operación, recuperación y cierre
 
 Informe | página 6 de 6
@@ -176,8 +169,7 @@ El responsable de fuente aclara datos; el del contrato autoriza esquema; el de p
 
 ### Cierre y limitaciones
 
-El paquete integra E1-E5 mediante índices y un README de reproducción. Se conserva la trazabilidad de operaciones efectivamente ejecutadas por Codex. Faltan las reflexiones de Alexia Orce, Georgina Sicco y Luis Morales; no se atribuyen al usuario comprobaciones no registradas. El resultado es un flujo reproducible e informativo; no autoriza acciones comerciales ni conclusiones sobre clientes o causas ausentes.
-
+El paquete integra E1-E5, las cuatro reflexiones y la participación del equipo. Se conservan las evidencias de Codex y se identifican las comprobaciones manuales declaradas. El esfuerzo de revisión permite justificar las cifras y sus límites. El flujo es reproducible e informativo; no autoriza acciones comerciales ni conclusiones causales sin datos.
 
 ## Anexo A. Mapa de evidencias
 
@@ -201,20 +193,15 @@ E5: 04_Trabajo/07_Supervision_y_recuperacion y 05_Ejecuciones/04_Recuperacion.
 
 ### Aportes observados
 
-Usuario: aportó recursos y dirigió el alcance mediante pedidos sucesivos. Codex: organizó, generó, ejecutó, verificó y documentó las tareas técnicas. Herramientas: terminal, Python estándar, Docker Desktop y Swift/CoreText/PDFKit. Alexis Gonzalez revisó manualmente los resultados de todas las pruebas de la matriz y destacó V001/V002 en su reflexión. Codex produjo las ejecuciones técnicas y respuestas; no se atribuyen revisiones a los otros integrantes.
+Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales reflexiona sobre el trabajo E1-E5, la reproducibilidad y los criterios de aceptación; su texto no identifica una ejecución individual específica.
 
 ### Integrantes y atribución de aportes
 
-Equipo: Grupo F. Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales. Las funciones responsables se describen en el plan; no se inventan nombres, firmas, aportes personales ni aprobaciones. La reflexión del anexo siguiente fue incorporada por Alexis Gonzalez. Las otras tres reflexiones siguen pendientes.
-
+El trabajo manual se refleja en contrastar reglas, recalcular cifras y explicar resultados. Las evidencias conservan comandos, salidas, errores, versiones, huellas y comparaciones: permiten seguir cada conclusión hasta su comprobación. Las ejecuciones históricas de Codex y las revisiones declaradas por integrantes se distinguen sin atribuir autorías no documentadas.
 
 ## Anexo B. Reflexión de Alexis Gonzalez
 
-Texto incorporado por el usuario | 174 palabras
-
-### Aporte y revisión declarados
-
-Revisión manual de todas las pruebas: contraste del CSV con las reglas, recálculo de importes y porcentajes y revisión de las salidas y detenciones. P6, con V001/V002, es el ejemplo destacado. Las ejecuciones técnicas corresponden a Codex.
+Reflexión individual | 174 palabras
 
 ### Reflexión individual
 
@@ -224,7 +211,45 @@ Para comprobar los resultados, revisé los cálculos de V001 y V002 con una calc
 
 También identifiqué un límite del uso de inteligencia artificial: generar código y obtener respuestas coherentes no garantiza que sean correctos. Es necesario contrastarlos con las reglas y las evidencias. Codex realizó la generación y ejecución técnica; mi aporte consistió en revisar esos resultados. La responsabilidad de aceptar una conclusión sigue siendo humana, especialmente cuando faltan datos o existen conflictos que el agente no puede resolver.
 
-### Otros integrantes
+## Anexo C. Reflexión de Alexia Orce
 
-Continúan pendientes las reflexiones y aportes de Alexia Orce, Georgina Sicco y Luis Morales.
+Reflexión individual | 190 palabras
+
+### Reflexión individual
+
+Para mi revisión decidí ejecutar el programa con dos fechas simuladas y mantener el mismo archivo de ventas. Quería ver qué pasaba con la alerta cuando cambiaba el umbral de la política y los datos de entrada seguían siendo los mismos.
+
+Ejecuté el programa desde la terminal de Visual Studio Code. Usé Codex como guía para preparar los comandos, interpretar las salidas y redactar esta reflexión. En ambas ejecuciones observé ventas de 5.720 UM, costos de 4.210 UM y un margen de 1.510 UM, equivalente al 26,40 %. Con la política v1, que alerta por debajo del 25 %, el total quedó «SIN ALERTA». Con la política v2, que alerta por debajo del 30 %, el mismo total quedó en «ALERTA».
+
+Mi aporte concreto fue realizar las dos ejecuciones y revisar el resultado global. La comparación me permitió entender por qué conviene mirar qué política se aplicó antes de interpretar una alerta como señal de que empeoraron las ventas. Mi comprobación se limita a estas dos ejecuciones con los datos del caso. Para evaluar cómo responde el programa ante otros datos o justo en el umbral, se necesitan pruebas adicionales.
+
+## Anexo D. Reflexión de Georgina Sicco
+
+Reflexión individual | 199 palabras
+
+### Reflexión individual
+
+Al repartir las tareas, mi parte fue ejecutar el pipeline y las pruebas, y revisar los resultados. Recalcular V001 y V002 me ayudó a entender por qué el margen global se obtiene dividiendo el margen total por las ventas totales: las operaciones tienen montos distintos, así que promediar sus porcentajes les daría el mismo peso.
+
+Con calculadora comprobé V001: 10×25=250 en ventas, 10×15=150 en costos por lo que obtengo 100 de margen. Para V002: 2×600=1.200 en ventas, 2×420=840 en costos lo que me da 360 de margen. Juntas, suman 1.450 en ventas y 460 de margen (31,72%). Luego comparé los resúmenes v1 y v2: ambos muestran 5.720 en ventas, 4.210 en costos y 1.510 de margen (26,40%); cambia el umbral, de 25% a 30%, y el estado, de "SIN ALERTA" a "ALERTA".
+
+Mi aporte fue correr el pipeline y las pruebas, recalcular esas filas y comparar los resúmenes; no escribí el código base. Algo importante a destacar: Una alerta indica que el resultado cruza una regla definida, pero por sí sola no explica la causa ni demuestra que las ventas hayan bajado, por esto siempre es interesante la revisión humana de la política para poner el resultado en contexto.
+
+## Anexo E. Reflexión de Luis Morales
+
+Reflexión individual | 183 palabras
+
+### Reflexión individual
+
+El asistente ayudó a generar y revisar código, preparar pruebas, ejecutar comandos, comparar productos, investigar incidencias y documentar resultados. Las comprobaciones registraron conteos, duplicados, exclusiones, sumas, políticas, errores esperados, hashes, versiones y recuperaciones.
+
+La elección de reglas, la autorización del alcance, la aceptación del cierre y las decisiones comerciales siguen siendo humanas. Una alerta informa; no autoriza automáticamente cambios de precios ni mensajes. El asistente debe declarar límites y no inventar aprobaciones ni ejecuciones.
+
+Ante un esquema inesperado, un ID conflictivo o una política faltante, detenerse evita introducir supuestos sin respaldo y permite resolver la causa antes de reanudar.
+
+La reproducibilidad exige registrar datos, políticas, parámetros, dependencias y entorno. Docker permitió ejecutar el pipeline en condiciones controladas; reconstruir la imagen mostró la importancia de conservar identificadores y verificar nuevamente los productos.
+
+Las pruebas y auditorías respaldan los cálculos, exclusiones, detenciones y recuperaciones comprobados, sin garantizar cualquier situación futura.
+
+Completar E1–E5 permitió practicar cómo formular requisitos, comprobar resultados, investigar inconsistencias y conservar evidencia. El aprendizaje principal fue construir criterio de revisión: explicar por qué se acepta un resultado y bajo qué condiciones debe cuestionarse.
 

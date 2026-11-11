@@ -1,11 +1,9 @@
-# Entrega para el profesor
+# Entrega final para el docente
 
-El único archivo para compartir es:
+Archivo para compartir: `02_ZIP/Modulo6_Equipo_GrupoF.zip`.
 
-02_ZIP/Modulo6_Equipo_GrupoF.zip
+Incluye informe final con cuatro reflexiones, participación del equipo, fuentes, código, pruebas y evidencias de E1-E5. No incluye temporales ni material de clase.
 
-Contiene un README con orden de revisión, informe PDF, fuentes del caso, pipeline, resultados, pruebas, analista, Docker y recuperación. No contiene material de clase, RedNova, plantillas vacías ni versiones anteriores.
+Para reconstruir desde la raíz: `swift 08_Informe/01_Borradores/fuentes_pdf/generar_informe.swift` y `python3 09_Entrega/empaquetar.py`. El generador guarda vistas de revisión temporales en `tmp/pdfs`; eliminarlas después de inspeccionar.
 
-Las reflexiones y aportes personales siguen pendientes. Para completarlos, editar los archivos originales en 08_Informe/02_Anexos_y_reflexiones, fuera del ZIP. Después actualizar el informe y ejecutar python3 09_Entrega/empaquetar.py.
-
-README_PARA_DOCENTE.md es la fuente del README incluido en el ZIP. Sus enlaces están pensados para la raíz del paquete extraído. empaquetar.py es una herramienta local; no es otra entrega.
+Al extraer el ZIP, comprobar su integridad con `shasum -a 256 -c SHA256SUMS.txt`.

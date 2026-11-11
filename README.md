@@ -12,9 +12,9 @@ Fecha de cierre técnico: 1 de noviembre de 2026. Modalidad: equipo de cuatro in
 
 ## Estado y alcance
 
-Diagnóstico, pipeline, ejecuciones v1/v2, P1–P8, tres detenciones, analista v1/v2, Docker y tres ensayos de recuperación están ejecutados y documentados. El informe, anexos, guía e inventario integran la entrega técnica. Quedan datos personales por completar: adaptación de las cuatro reflexiones individuales de 182 palabras. El anexo de reflexión está explícitamente marcado como borrador, no como declaración del estudiante.
+Diagnóstico, pipeline, ejecuciones v1/v2, P1–P8, tres detenciones, analista v1/v2, Docker y tres ensayos de recuperación están ejecutados y documentados. El informe, anexos, guía e inventario integran la entrega técnica. Las cuatro reflexiones están integradas en el informe final. La participación distingue generación técnica con IA, revisiones manuales y aportes declarados.
 
-Codex ejecutó las tareas técnicas con herramientas locales. La revisión humana independiente no está registrada; no se atribuye al usuario una comprobación que no haya realizado. El usuario indicó que no requiere defensa; no se preparó una presentación adicional.
+Codex ejecutó las tareas técnicas con herramientas locales. Las revisiones manuales y los aportes declarados por el equipo están registrados en participación y en las cuatro reflexiones. El usuario indicó que no requiere defensa; no se preparó una presentación adicional.
 
 ## Resultados esperados
 
@@ -76,4 +76,12 @@ Los productos Docker de ambas fechas coinciden byte a byte con Python. Los metad
 
 Dentro del ZIP final, `MANIFIESTO_ENTREGA.json` identifica los archivos y `SHA256SUMS.txt` permite comprobarlos con `shasum -a 256 -c SHA256SUMS.txt`. Ambos se generan al empaquetar. El inventario no se incluye a sí mismo para evitar referencias circulares.
 
-El ZIP abre bajo una sola carpeta Modulo6_Equipo_GrupoF. Conserva material de clase y recursos de referencia, pero RedNova es un caso distinto y no sustituye los productos Horizonte. Se excluyen .git, .DS_Store, temporales y el propio ZIP. Los pendientes personales están en `PENDIENTES_PERSONALES.md`.
+El ZIP abre bajo una sola carpeta Modulo6_Equipo_GrupoF. Incluye los productos y evidencias evaluables de Horizonte; excluye material de clase y RedNova. Se excluyen .git, .DS_Store, temporales y el propio ZIP. El estado de integración está en `PENDIENTES_PERSONALES.md`.
+
+## Cierre de entrega - 11 de noviembre de 2026
+
+Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales reflexiona sobre el trabajo E1-E5, la reproducibilidad y los criterios de aceptación; su texto no identifica una ejecución individual específica.
+
+El trabajo manual se refleja en contrastar reglas, recalcular cifras y explicar resultados. Las evidencias conservan comandos, salidas, errores, versiones, huellas y comparaciones: permiten seguir cada conclusión hasta su comprobación. Las ejecuciones históricas de Codex y las revisiones declaradas por integrantes se distinguen sin atribuir autorías no documentadas.
+
+Entrega final: `09_Entrega/02_ZIP/Modulo6_Equipo_GrupoF.zip`.

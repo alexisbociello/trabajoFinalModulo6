@@ -56,8 +56,12 @@ shasum -a 256 -c 07_Evidencias/01_Integridad_original/ventas_original.sha256
 
 El inventario está en MANIFIESTO_ENTREGA.json. El original se conserva sin editar; si el extractor no respeta permisos, se puede restaurar la protección local con `chmod 444 01_Original_ventas_PROTEGIDO/ventas_original.csv` y `chmod 555 01_Original_ventas_PROTEGIDO`.
 
-## Pendiente personal explícito
+## Participación del equipo y evidencias
 
-La reflexión de Alexis Gonzalez está incorporada. Faltan las reflexiones y aportes de Alexia Orce, Georgina Sicco y Luis Morales. Ver [Pendientes](PENDIENTES_PERSONALES.md) y [participación y uso de IA](08_Informe/02_Anexos_y_reflexiones/participacion_y_uso_IA.md). No se presentan los borradores como experiencias personales ya realizadas.
+Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales reflexiona sobre el trabajo E1-E5, la reproducibilidad y los criterios de aceptación; su texto no identifica una ejecución individual específica.
+
+El trabajo manual se refleja en contrastar reglas, recalcular cifras y explicar resultados. Las evidencias conservan comandos, salidas, errores, versiones, huellas y comparaciones: permiten seguir cada conclusión hasta su comprobación. Las ejecuciones históricas de Codex y las revisiones declaradas por integrantes se distinguen sin atribuir autorías no documentadas.
+
+Las cuatro reflexiones están incorporadas al PDF y en [los anexos individuales](08_Informe/02_Anexos_y_reflexiones/participacion_y_uso_IA.md).
 
 Se conservaron salidas, errores, comandos y versiones necesarios para evaluar. Se excluyeron libros, diapositivas, RedNova, plantillas vacías, temporales y versiones obsoletas. Las copias de código/datos dentro del paquete Docker son necesarias para reproducirlo.

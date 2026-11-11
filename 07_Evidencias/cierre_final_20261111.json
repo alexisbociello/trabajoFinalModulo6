@@ -1,0 +1,69 @@
+{
+  "fecha_cierre": "2026-11-11",
+  "estado": "Entrega final integrada",
+  "reflexiones": {
+    "Alexis Gonzalez": 174,
+    "Alexia Orce": 190,
+    "Georgina Sicco": 199,
+    "Luis Morales": 183
+  },
+  "pruebas": {
+    "pruebas": 11,
+    "resultado": "11 controles aprobados; interfaz sin salida comprobada",
+    "original_intacto": true,
+    "total_v1": {
+      "registros": 13,
+      "unidades": "91",
+      "ventas": "5720",
+      "costos": "4210",
+      "margen": "1510",
+      "estado": "SIN ALERTA",
+      "margen_pct": "26.398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601",
+      "margen_pct_mostrado": "26.40"
+    },
+    "total_v2": {
+      "registros": 13,
+      "unidades": "91",
+      "ventas": "5720",
+      "costos": "4210",
+      "margen": "1510",
+      "estado": "ALERTA",
+      "margen_pct": "26.398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601398601",
+      "margen_pct_mostrado": "26.40"
+    }
+  },
+  "revision_pdf": "12 páginas renderizadas: portada, 6 técnicas, mapa de evidencias y 4 reflexiones; sin desbordes",
+  "limpieza": [
+    ".DS_Store",
+    "12_Entregables_por_etapa/.DS_Store",
+    "09_Entrega/.DS_Store",
+    "09_Entrega/02_ZIP/.gitkeep",
+    "07_Evidencias/.DS_Store",
+    "07_Evidencias/04_Calculos_independientes/.gitkeep",
+    "07_Evidencias/03_Consola_y_versiones/.gitkeep",
+    "03_Material_de_clase/.DS_Store",
+    "06_Pruebas/.DS_Store",
+    "06_Pruebas/02_Resultados/Detencion_ID_conflictivo/.gitkeep",
+    "06_Pruebas/02_Resultados/Detencion_esquema/.gitkeep",
+    "06_Pruebas/02_Resultados/Detencion_politica_faltante/.gitkeep",
+    "04_Trabajo/06_Docker/.gitkeep",
+    "04_Trabajo/05_Agente_analista/v1/.gitkeep",
+    "04_Trabajo/05_Agente_analista/v2/.gitkeep",
+    "04_Trabajo/05_Agente_analista/Consultas_y_respuestas/.gitkeep",
+    "04_Trabajo/07_Supervision_y_recuperacion/.gitkeep",
+    "04_Trabajo/03_Pipeline/.gitkeep",
+    "04_Trabajo/04_Prompts_y_revisiones/.gitkeep",
+    "04_Trabajo/02_Diagnostico/.gitkeep",
+    "08_Informe/.DS_Store",
+    "08_Informe/02_Anexos_y_reflexiones/.gitkeep",
+    "08_Informe/03_PDF_final/.gitkeep",
+    "05_Ejecuciones/03_Comparaciones/.gitkeep",
+    "05_Ejecuciones/02_Docker/2026-10-19_v2/.gitkeep",
+    "05_Ejecuciones/02_Docker/2026-10-18_v1/.gitkeep",
+    "05_Ejecuciones/01_Python/2026-10-19_v2/.gitkeep",
+    "05_Ejecuciones/01_Python/2026-10-18_v1/.gitkeep",
+    "tmp/.DS_Store",
+    "tmp/"
+  ],
+  "nota": "Evidencias históricas conservadas; aportes según declaración individual."
+}
