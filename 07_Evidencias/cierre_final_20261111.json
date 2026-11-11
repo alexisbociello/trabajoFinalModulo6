@@ -5,7 +5,7 @@
     "Alexis Gonzalez": 174,
     "Alexia Orce": 190,
     "Georgina Sicco": 199,
-    "Luis Morales": 183
+    "Luis Morales": 184
   },
   "pruebas": {
     "pruebas": 11,
@@ -77,5 +77,6 @@
     "07_Evidencias/02_Bitacora/cierre_documental.md",
     "07_Evidencias/02_Bitacora/ampliacion_revision_humana_Alexis.md",
     "07_Evidencias/02_Bitacora/reflexion_Alexis_incorporada.md"
-  ]
+  ],
+  "revision_Luis": "Matriz original conservada; correspondencia de controles incorporada. E3-C1 a E3-C6: revisión humana declarada; E5: asistida por Codex."
 }

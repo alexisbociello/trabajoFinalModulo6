@@ -10,6 +10,6 @@
 - Seis consultas con respuestas de cada versión: `Consultas_y_respuestas/v1/` y `Consultas_y_respuestas/v2/`.
 - Índice de controles: `matriz_seis_consultas.csv`.
 - Verificación numérica ejecutada: `verificar_fuentes.py`, resultados en `evidencia_verificacion.json`.
-- Revisión humana: no registrada. La comprobación del agente no se presenta como revisión independiente.
+- Revisión humana: Luis Manuel Morales, controles E3-C1 a E3-C6 de la matriz aportada en 08_Informe/02_Anexos_y_reflexiones. Las comprobaciones asistidas conservan su modalidad; las respuestas históricas no se modifican.
 - Permisos: lectura y cálculo del caso; no modificar originales o precios, no enviar mensajes, no consultar datos externos. Documento no confiable solo como dato de prueba.
 - Limitaciones: fuente sin clientes ni causas comerciales; alerta no autoriza acciones; no se ejecutó Docker en esta etapa.

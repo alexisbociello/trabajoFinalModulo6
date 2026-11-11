@@ -193,7 +193,7 @@ E5: 04_Trabajo/07_Supervision_y_recuperacion y 05_Ejecuciones/04_Recuperacion.
 
 ### Aportes observados
 
-Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales reflexiona sobre el trabajo E1-E5, la reproducibilidad y los criterios de aceptación; su texto no identifica una ejecución individual específica.
+Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales documentó su revisión manual en Excel: duplicados y exclusiones, agregados por categoría, total y porcentaje global; comparó políticas y revisó seis consultas del analista. Su matriz distingue trabajo manual de comprobaciones asistidas. Matriz: 08_Informe/02_Anexos_y_reflexiones/matriz_revision_humana.csv; correspondencia de rutas en correspondencia_revision_Luis.csv. Se conservan referencias externas y modalidades originales.
 
 ### Integrantes y atribución de aportes
 
@@ -237,19 +237,15 @@ Mi aporte fue correr el pipeline y las pruebas, recalcular esas filas y comparar
 
 ## Anexo E. Reflexión de Luis Morales
 
-Reflexión individual | 183 palabras
+Reflexión individual | 184 palabras
 
-### Reflexión individual
+### Revisión manual documentada
 
-El asistente ayudó a generar y revisar código, preparar pruebas, ejecutar comandos, comparar productos, investigar incidencias y documentar resultados. Las comprobaciones registraron conteos, duplicados, exclusiones, sumas, políticas, errores esperados, hashes, versiones y recuperaciones.
+Mi aporte fue revisar manualmente los resultados en Excel y registrar las comprobaciones en una matriz de revisión humana. Verifiqué el duplicado V005, la cantidad negativa y el precio vacío, y contrasté las 13 filas válidas con las tres exclusiones.
 
-La elección de reglas, la autorización del alcance, la aceptación del cierre y las decisiones comerciales siguen siendo humanas. Una alerta informa; no autoriza automáticamente cambios de precios ni mensajes. El asistente debe declarar límites y no inventar aprobaciones ni ejecuciones.
+También revisé los agregados por categoría y el total: 91 unidades, ventas de 5.720 UM, costos de 4.210 UM y margen de 1.510 UM. Comprobé el porcentaje como 100 × 1.510 / 5.720 = 26,3986… %, mostrado como 26,40 %. Esta razón de sumas permite interpretar el margen global sin promediar porcentajes de operaciones con distinto peso.
 
-Ante un esquema inesperado, un ID conflictivo o una política faltante, detenerse evita introducir supuestos sin respaldo y permite resolver la causa antes de reanudar.
+Comparé las políticas: con umbral del 25 % el total queda SIN ALERTA y con el 30 % pasa a ALERTA, manteniendo los importes. Revisé además las seis consultas del analista, incluyendo ambigüedad, datos inexistentes, acciones no autorizadas y contenido no confiable.
 
-La reproducibilidad exige registrar datos, políticas, parámetros, dependencias y entorno. Docker permitió ejecutar el pipeline en condiciones controladas; reconstruir la imagen mostró la importancia de conservar identificadores y verificar nuevamente los productos.
-
-Las pruebas y auditorías respaldan los cálculos, exclusiones, detenciones y recuperaciones comprobados, sin garantizar cualquier situación futura.
-
-Completar E1–E5 permitió practicar cómo formular requisitos, comprobar resultados, investigar inconsistencias y conservar evidencia. El aprendizaje principal fue construir criterio de revisión: explicar por qué se acepta un resultado y bajo qué condiciones debe cuestionarse.
+Aprendí que una alerta informa y no autoriza decisiones comerciales. Detenerse ante datos o políticas incompatibles evita introducir supuestos. Mi matriz distingue validación manual de comprobaciones asistidas por Codex; estas últimas no equivalen a una revisión personal independiente. Las evidencias respaldan únicamente los comportamientos comprobados.
 

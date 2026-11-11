@@ -79,7 +79,7 @@ El ZIP abre bajo una sola carpeta Modulo6_Equipo_GrupoF. Incluye los productos y
 
 ## Cierre de entrega - 11 de noviembre de 2026
 
-Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales reflexiona sobre el trabajo E1-E5, la reproducibilidad y los criterios de aceptación; su texto no identifica una ejecución individual específica.
+Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales documentó su revisión manual en Excel: duplicados y exclusiones, agregados por categoría, total y porcentaje global; comparó políticas y revisó seis consultas del analista. Su matriz distingue trabajo manual de comprobaciones asistidas.
 
 El trabajo manual se refleja en contrastar reglas, recalcular cifras y explicar resultados. Las evidencias conservan comandos, salidas, errores, versiones, huellas y comparaciones: permiten seguir cada conclusión hasta su comprobación. Las ejecuciones históricas de Codex y las revisiones declaradas por integrantes se distinguen sin atribuir autorías no documentadas.
 
@@ -90,3 +90,5 @@ Entrega final: `09_Entrega/01_ZIP/Modulo6_Equipo_GrupoF.zip`.
 Carpetas 00-03: consigna, original protegido, insumos y material de consulta. Carpetas 04-07: trabajo técnico, ejecuciones, pruebas y evidencias. Carpeta 08: informe y reflexiones. Carpeta 09: empaquetador, validación y ZIP final. Carpeta 10: índices por etapa.
 
 Para regenerar el PDF: `swift 08_Informe/01_Borradores/fuentes_pdf/generar_informe.swift`. Revisar las imágenes de `tmp/pdfs` y eliminarlas al terminar. Para reconstruir el ZIP: `python3 09_Entrega/empaquetar.py`. La fuente del README incluido en el ZIP es `09_Entrega/README_PARA_DOCENTE.md`.
+
+Matriz de Luis: `08_Informe/02_Anexos_y_reflexiones/matriz_revision_humana.csv`. Las rutas originales se conservan como declaración aportada; la correspondencia con esta entrega está en `08_Informe/02_Anexos_y_reflexiones/correspondencia_revision_Luis.csv`. Las referencias a Excel y archivos externos no incluidos no se presentan como archivos verificados en este paquete.

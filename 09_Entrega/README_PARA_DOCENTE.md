@@ -58,10 +58,12 @@ El inventario está en MANIFIESTO_ENTREGA.json. El original se conserva sin edit
 
 ## Participación del equipo y evidencias
 
-Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales reflexiona sobre el trabajo E1-E5, la reproducibilidad y los criterios de aceptación; su texto no identifica una ejecución individual específica.
+Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó el CSV con las reglas y recalculó importes y porcentajes. Alexia Orce ejecutó v1/v2 desde Visual Studio Code y comprobó el cambio de alerta con importes constantes. Georgina Sicco declara la ejecución del pipeline y pruebas, el recálculo con calculadora de V001/V002 y la comparación de resúmenes. Luis Morales documentó su revisión manual en Excel: duplicados y exclusiones, agregados por categoría, total y porcentaje global; comparó políticas y revisó seis consultas del analista. Su matriz distingue trabajo manual de comprobaciones asistidas.
 
 El trabajo manual se refleja en contrastar reglas, recalcular cifras y explicar resultados. Las evidencias conservan comandos, salidas, errores, versiones, huellas y comparaciones: permiten seguir cada conclusión hasta su comprobación. Las ejecuciones históricas de Codex y las revisiones declaradas por integrantes se distinguen sin atribuir autorías no documentadas.
 
 Las cuatro reflexiones están incorporadas al PDF y en [los anexos individuales](08_Informe/02_Anexos_y_reflexiones/participacion_y_uso_IA.md).
 
 Se conservaron salidas, errores, comandos y versiones necesarios para evaluar. Se excluyeron libros, diapositivas, RedNova, plantillas vacías, temporales y versiones obsoletas. Las copias de código/datos dentro del paquete Docker son necesarias para reproducirlo.
+
+Matriz de Luis: `08_Informe/02_Anexos_y_reflexiones/matriz_revision_humana.csv`. Las rutas originales se conservan como declaración aportada; la correspondencia con esta entrega está en `08_Informe/02_Anexos_y_reflexiones/correspondencia_revision_Luis.csv`. Las referencias a Excel y archivos externos no incluidos no se presentan como archivos verificados en este paquete.
