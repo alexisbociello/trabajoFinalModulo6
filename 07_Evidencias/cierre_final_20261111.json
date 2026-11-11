@@ -65,5 +65,17 @@
     "tmp/.DS_Store",
     "tmp/"
   ],
-  "nota": "Evidencias históricas conservadas; aportes según declaración individual."
+  "nota": "Evidencias históricas conservadas; aportes según declaración individual.",
+  "markdown_redundantes_eliminados": [
+    "README_ORGANIZACION.md",
+    "PENDIENTES_PERSONALES.md",
+    "INSTRUCTIVO_PARA_EL_EQUIPO.md",
+    "09_Entrega/LEEME.md",
+    "07_Evidencias/02_Bitacora/plantilla_bitacora.md",
+    "07_Evidencias/02_Bitacora/actualizacion_integrantes.md",
+    "07_Evidencias/02_Bitacora/nombre_equipo_GrupoF.md",
+    "07_Evidencias/02_Bitacora/cierre_documental.md",
+    "07_Evidencias/02_Bitacora/ampliacion_revision_humana_Alexis.md",
+    "07_Evidencias/02_Bitacora/reflexion_Alexis_incorporada.md"
+  ]
 }

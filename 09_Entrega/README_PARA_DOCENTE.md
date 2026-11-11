@@ -5,7 +5,7 @@ Integrantes: Alexis Gonzalez, Alexia Orce, Georgina Sicco y Luis Morales.
 ## Orden sugerido de revisión
 
 1. [Informe PDF](08_Informe/03_PDF_final/Informe_Final_Modulo6_GrupoF.pdf): seis páginas de contenido, portada y anexos.
-2. [Índice E1–E5](12_Entregables_por_etapa/README.md): acceso a los productos de cada etapa.
+2. [Índice E1–E5](10_Entregables_por_etapa/README.md): acceso a los productos de cada etapa.
 3. [Matriz P1–P8 y tres detenciones](06_Pruebas/03_Matriz_y_revision/matriz_8_pruebas.csv): resultado observado y ruta a la evidencia.
 4. [Agente analista](04_Trabajo/05_Agente_analista/ficha_agente_analista.md): instrucciones v1/v2, seis respuestas por versión y comprobaciones.
 5. [Docker real y comparación](04_Trabajo/06_Docker/README.md): entorno observado, comandos y equivalencia con Python.

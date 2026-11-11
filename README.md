@@ -4,10 +4,9 @@ Fecha de cierre técnico: 1 de noviembre de 2026. Modalidad: equipo de cuatro in
 
 ## Empezar por aquí
 
-- [Informe PDF](08_Informe/03_PDF_final/Informe_Final_Modulo6_GrupoF.pdf): seis páginas de contenido más portada y dos anexos.
+- [Informe PDF](08_Informe/03_PDF_final/Informe_Final_Modulo6_GrupoF.pdf): seis páginas de contenido más portada y cinco anexos.
 - [Informe editable](08_Informe/01_Borradores/informe_final_editable.md).
-- [Entregables separados E1–E5](12_Entregables_por_etapa/README.md).
-- [Organización de carpetas](README_ORGANIZACION.md).
+- [Entregables separados E1–E5](10_Entregables_por_etapa/README.md).
 - [Participación y uso de IA](08_Informe/02_Anexos_y_reflexiones/participacion_y_uso_IA.md).
 
 ## Estado y alcance
@@ -76,7 +75,7 @@ Los productos Docker de ambas fechas coinciden byte a byte con Python. Los metad
 
 Dentro del ZIP final, `MANIFIESTO_ENTREGA.json` identifica los archivos y `SHA256SUMS.txt` permite comprobarlos con `shasum -a 256 -c SHA256SUMS.txt`. Ambos se generan al empaquetar. El inventario no se incluye a sí mismo para evitar referencias circulares.
 
-El ZIP abre bajo una sola carpeta Modulo6_Equipo_GrupoF. Incluye los productos y evidencias evaluables de Horizonte; excluye material de clase y RedNova. Se excluyen .git, .DS_Store, temporales y el propio ZIP. El estado de integración está en `PENDIENTES_PERSONALES.md`.
+El ZIP abre bajo una sola carpeta Modulo6_Equipo_GrupoF. Incluye los productos y evidencias evaluables de Horizonte; excluye material de clase y RedNova. Se excluyen .git, .DS_Store, temporales y el propio ZIP. Las cuatro reflexiones y sus aportes están integrados.
 
 ## Cierre de entrega - 11 de noviembre de 2026
 
@@ -84,4 +83,10 @@ Alexis Gonzalez revisó manualmente todas las pruebas de la matriz, contrastó e
 
 El trabajo manual se refleja en contrastar reglas, recalcular cifras y explicar resultados. Las evidencias conservan comandos, salidas, errores, versiones, huellas y comparaciones: permiten seguir cada conclusión hasta su comprobación. Las ejecuciones históricas de Codex y las revisiones declaradas por integrantes se distinguen sin atribuir autorías no documentadas.
 
-Entrega final: `09_Entrega/02_ZIP/Modulo6_Equipo_GrupoF.zip`.
+Entrega final: `09_Entrega/01_ZIP/Modulo6_Equipo_GrupoF.zip`.
+
+## Organización y reconstrucción de la entrega
+
+Carpetas 00-03: consigna, original protegido, insumos y material de consulta. Carpetas 04-07: trabajo técnico, ejecuciones, pruebas y evidencias. Carpeta 08: informe y reflexiones. Carpeta 09: empaquetador, validación y ZIP final. Carpeta 10: índices por etapa.
+
+Para regenerar el PDF: `swift 08_Informe/01_Borradores/fuentes_pdf/generar_informe.swift`. Revisar las imágenes de `tmp/pdfs` y eliminarlas al terminar. Para reconstruir el ZIP: `python3 09_Entrega/empaquetar.py`. La fuente del README incluido en el ZIP es `09_Entrega/README_PARA_DOCENTE.md`.

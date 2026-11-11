@@ -189,7 +189,7 @@ E2: 04_Trabajo/03_Pipeline, 05_Ejecuciones/01_Python y 06_Pruebas.
 E3: 04_Trabajo/05_Agente_analista; seis respuestas por versión y evidencia de verificación.
 E4: 04_Trabajo/06_Docker y 05_Ejecuciones/03_Comparaciones.
 E5: 04_Trabajo/07_Supervision_y_recuperacion y 05_Ejecuciones/04_Recuperacion.
-Índices navegables: 12_Entregables_por_etapa/README.md.
+Índices navegables: 10_Entregables_por_etapa/README.md.
 
 ### Aportes observados
 

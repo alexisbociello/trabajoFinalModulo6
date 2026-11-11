@@ -8,7 +8,6 @@ Operación, informe, anexos y paquete técnico generados. Las cuatro reflexiones
 - [Informe editable](../../08_Informe/01_Borradores/informe_final_editable.md)
 - [Anexos y reflexiones finales](../../08_Informe/02_Anexos_y_reflexiones)
 - [README global de reproducción](../../README.md)
-- [Estado de integración](../../PENDIENTES_PERSONALES.md)
 - [Bitácoras](../../07_Evidencias/02_Bitacora)
 
 La matriz completa se repitió en una copia nueva durante el cierre y resultó satisfactoria. Incluye acumulativamente [E1–E4](../README.md).
