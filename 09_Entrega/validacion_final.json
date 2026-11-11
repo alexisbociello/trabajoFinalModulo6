@@ -1,8 +1,8 @@
 {
   "zip": "09_Entrega/01_ZIP/Modulo6_Equipo_GrupoF.zip",
-  "archivos": 170,
-  "bytes": 484725,
-  "sha256": "acb67f151f35e87b32ab53d8468e61b6bbd00b13d55a39905ffc7c2a1f91ca2a",
+  "archivos": 171,
+  "bytes": 518611,
+  "sha256": "2bcc292b3dd79f9212bd6f011cbf582cbee5bb689f72747c6e5bc00a6537b72a",
   "crc_y_sha256_validos": true,
   "reflexiones_integradas": 4,
   "controles_aprobados": 11,
@@ -11,5 +11,7 @@
   "enlaces_internos_validos": true,
   "markdown_redundantes_eliminados": 10,
   "revision_manual_Luis_incorporada": true,
-  "matriz_Luis_original_sin_modificaciones": true
+  "matriz_Luis_original_sin_modificaciones": true,
+  "excel_Luis_incluido": true,
+  "excel_Luis_sha256": "02b525aa80c274153b11080d722dbcb8a492f2d21a2c78a714403075327e0757"
 }
