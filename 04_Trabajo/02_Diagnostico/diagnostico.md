@@ -43,6 +43,4 @@ La huella SHA-256 del original se comprobó antes y después, contra el registro
 
 ## Uso de IA y pendiente humano
 
-Pedido que originó esta ejecución: «eso lo puedes realizar tu? que informacion o decision extra de mi parte necesitas?», referido al diagnóstico de calidad previamente propuesto. Codex leyó las reglas, generó el verificador, lo ejecutó y documentó resultados. No se atribuye esta ejecución ni un cálculo manual al estudiante.
-
-Pendiente: el estudiante debe contrastar los tres casos, confirmar la conciliación y registrar su revisión propia en la bitácora. No se aprobaron P1–P8 ni controles de detención con esta sola ejecución. No se necesita una nueva regla de negocio para resolver estas filas.
+Pedido para completar los pendientes en modo asistido.
