@@ -1,6 +1,6 @@
 # E2 Pipeline y pruebas
 
-Productos generados; revisión humana no registrada.
+Productos generados
 
 Incluye las etapas anteriores: [volver al índice](../README.md).
 
