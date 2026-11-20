@@ -1,6 +1,6 @@
 # E1 Calidad
 
-Productos generados; revisión humana no registrada.
+Productos generados
 
 - [Original protegido](../../01_Original_ventas_PROTEGIDO/ventas_original.csv)
 - [Reglas y contrato](../../02_Insumos/01_Reglas_y_contrato)
