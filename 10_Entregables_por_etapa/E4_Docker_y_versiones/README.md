@@ -9,4 +9,4 @@ Paquete generado y ejecutado en Docker Desktop local. Ambas políticas coinciden
 - [Comandos, consola y códigos de salida](../../07_Evidencias/03_Consola_y_versiones/docker)
 - [Bitácora E4](../../07_Evidencias/02_Bitacora/docker_v1.md)
 
-Ejecutor: Codex con herramientas locales. Revisión humana no registrada. No se afirma haber repetido P1–P8 dentro de Docker.
+Las ejecuciones se realizaron con Codex utilizando herramientas locales. Las pruebas P1–P8 corresponden a las verificaciones del pipeline realizadas previamente y no se repitieron dentro de Docker.
