@@ -11,9 +11,13 @@ Fecha de cierre técnico: 1 de noviembre de 2026. Modalidad: equipo de cuatro in
 
 ## Estado y alcance
 
-Diagnóstico, pipeline, ejecuciones v1/v2, P1–P8, tres detenciones, analista v1/v2, Docker y tres ensayos de recuperación están ejecutados y documentados. El informe, anexos, guía e inventario integran la entrega técnica. Las cuatro reflexiones están integradas en el informe final. La participación distingue generación técnica con IA, revisiones manuales y aportes declarados.
+En este trabajo desarrollamos un proceso de análisis de ventas para Comercial Horizonte, desde la revisión inicial de los datos hasta la generación de resultados y su validación.
 
-Codex ejecutó las tareas técnicas con herramientas locales. Las revisiones manuales y los aportes declarados por el equipo están registrados en participación y en las cuatro reflexiones. El usuario indicó que no requiere defensa; no se preparó una presentación adicional.
+Primero identificamos los registros que no cumplían con las condiciones establecidas. Después trabajamos con un pipeline en Python que permite procesar los datos, calcular los resultados y aplicar las políticas de margen definidas para cada versión.
+
+También realizamos pruebas para comprobar el funcionamiento del programa, comparamos las ejecuciones en Python y Docker y trabajamos con un agente analista para interpretar los resultados.
+
+Para el desarrollo utilizamos Codex como herramienta de apoyo técnico. Las comprobaciones manuales realizadas por los integrantes se documentaron por separado, junto con las evidencias correspondientes.
 
 ## Resultados esperados
 
