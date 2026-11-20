@@ -1,6 +1,6 @@
 # E3 Agente analista
 
-Productos generados; revisión humana no registrada.
+Productos generados
 
 Incluye las etapas anteriores: [volver al índice](../README.md).
 
